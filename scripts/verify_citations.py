@@ -2,11 +2,28 @@
 """Ground lens-output citations against transcripts.
 
 Usage:
-    python scripts/verify_citations.py [outputs_folder]
+    python scripts/verify_citations.py [outputs_folder] [transcripts_folder]
 
-The folder defaults to outputs_claude. Pass outputs_cursor (or any other
-outputs_<tool>/ folder) as an arg to verify a different run. Writes
-<folder>/verification.md.
+Defaults:
+    outputs_folder       = outputs_claude
+    transcripts_folder   = real_gig_work_transcripts
+
+The script reads the three lens files in <outputs_folder>/, parses every
+citation in either of the canonical formats:
+    `[p0X: "..."]`     synthetic SCU-student corpus
+    `[A<N>: "..."]`    real Enriquez gig-worker corpus
+It substring-searches each snippet against the cited transcript and writes
+<outputs_folder>/verification.md.
+
+This is a fallback. The canonical verifier in this repo is a Claude or
+Cursor subagent that runs @prompts/verification.md. The Python script is
+useful for spot-checking and for deterministic grounding outside the agent
+stack.
+
+Examples:
+    python scripts/verify_citations.py
+    python scripts/verify_citations.py outputs_cursor real_gig_work_transcripts
+    python scripts/verify_citations.py synthetic/outputs_claude synthetic/transcripts
 """
 import sys
 import re
@@ -14,15 +31,20 @@ from pathlib import Path
 from typing import List, Optional, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
-TRANS = ROOT / "transcripts"
 OUT_DIR_NAME = sys.argv[1] if len(sys.argv) > 1 else "outputs_claude"
+TRANS_DIR_NAME = sys.argv[2] if len(sys.argv) > 2 else "real_gig_work_transcripts"
+
 OUT = ROOT / OUT_DIR_NAME
+TRANS = ROOT / TRANS_DIR_NAME
 LENS_FILES = ["01-pain-points.md", "02-emotional-language.md", "03-causal-chains.md"]
 
 if not OUT.is_dir():
-    sys.exit(f"Output folder not found: {OUT}. Pass a valid folder name as the first arg.")
+    sys.exit(f"Output folder not found: {OUT}")
+if not TRANS.is_dir():
+    sys.exit(f"Transcripts folder not found: {TRANS}")
 
-CITE_RE = re.compile(r"\[p(\d{2}):\s*\"([^\"]*)\"\]")
+# Matches both `[p01: "..."]` (synthetic) and `[A1: "..."]` or `[A11: "..."]` (real).
+CITE_RE = re.compile(r"\[((?:p\d{2})|(?:A\d{1,2})):\s*\"([^\"]*)\"\]")
 
 
 def norm(s: str) -> str:
@@ -37,54 +59,71 @@ def strip_ellipsis_snippet(snippet: str) -> str:
 
 
 def find_transcript(pid: str) -> Optional[Path]:
-    for p in TRANS.glob(f"p{int(pid):02d}-*.md"):
-        return p
+    # Synthetic naming: p01-cs-junior.md (prefix + dash + label)
+    # Real naming: A11.md (prefix only)
+    if pid.startswith("p"):
+        for p in TRANS.glob(f"{pid}-*.md"):
+            return p
+    else:
+        candidate = TRANS / f"{pid}.md"
+        if candidate.exists():
+            return candidate
     return None
+
+
+def all_transcripts() -> List[Path]:
+    return sorted(p for p in TRANS.glob("*.md") if not p.name.startswith("."))
+
+
+def transcript_id(path: Path) -> str:
+    stem = path.stem
+    # synthetic stems look like "p01-cs-junior"; real stems look like "A11"
+    return stem.split("-", 1)[0]
 
 
 def classify(pid: str, snippet: str, source_text: str) -> Tuple[str, str]:
     raw = strip_ellipsis_snippet(snippet)
     n_src = norm(source_text)
-    # exact substring (case-insensitive), whitespace collapsed on both sides
     raw_fold = norm(raw)
     if raw_fold and raw_fold in n_src:
         return "VERIFIED", ""
-    # try original case-sensitive substring
     if raw in source_text:
         return "VERIFIED", ""
-    # fuzzy: longest token overlap / search key words
     words = [w for w in re.findall(r"[a-z0-9']+", raw_fold) if len(w) > 2]
     if len(words) >= 3:
         head = " ".join(words[:5])
         if head in n_src:
             return "FUZZY_MATCH", f'closest span contains start of snippet; check: "{raw[:80]}"'
-    # misattributed: other transcripts
-    for p in TRANS.glob("p*.md"):
+    for p in all_transcripts():
         other = p.read_text(encoding="utf-8")
         if raw in other or norm(raw) in norm(other):
-            if p.name.startswith(f"p{int(pid):02d}-"):
+            if transcript_id(p) == pid:
                 continue
             return "MISATTRIBUTED", f"found in {p.name}"
     return "NOT_FOUND", "snippet not located in cited transcript"
 
 
 def main():
-    details: List[Tuple[str, str, str, str]] = []
+    details = []
     counts = {k: 0 for k in ["VERIFIED", "FUZZY_MATCH", "NOT_FOUND", "MISATTRIBUTED", "UNCITED"]}
 
     for lf in LENS_FILES:
-        text = (OUT / lf).read_text(encoding="utf-8")
+        path = OUT / lf
+        if not path.exists():
+            print(f"Skipping missing lens file: {path}")
+            continue
+        text = path.read_text(encoding="utf-8")
         for m in CITE_RE.finditer(text):
             pid = m.group(1)
             snippet = m.group(2)
-            path = find_transcript(pid)
-            if not path:
+            src_path = find_transcript(pid)
+            if not src_path:
                 status = "NOT_FOUND"
-                note = f"no transcript for p{pid}"
+                note = f"no transcript for {pid}"
                 counts[status] += 1
                 details.append((lf, status, m.group(0), note))
                 continue
-            src = path.read_text(encoding="utf-8")
+            src = src_path.read_text(encoding="utf-8")
             status, note = classify(pid, snippet, src)
             counts[status] += 1
             details.append((lf, status, m.group(0), note))
@@ -92,6 +131,9 @@ def main():
     total = sum(counts.values())
     lines = [
         "# Verification Report",
+        "",
+        f"Inputs: lens files in `{OUT_DIR_NAME}/`, transcripts in `{TRANS_DIR_NAME}/`.",
+        "Generated by `scripts/verify_citations.py` (Python fallback verifier).",
         "",
         "## Summary",
         f"- Total citations checked: {total}",
@@ -111,15 +153,18 @@ def main():
                 continue
             line = f"- [{status}] {cite}"
             if note:
-                line += f" — {note}"
+                line += f" | {note}"
             lines.append(line)
         lines.append("")
 
     discard = [d for d in details if d[1] in ("NOT_FOUND", "MISATTRIBUTED", "UNCITED")]
     lines.append("## Synthesis discard list")
     lines.append("")
-    for dlf, status, cite, note in discard:
-        lines.append(f"- [{status}] {cite} ({dlf})" + (f" — {note}" if note else ""))
+    if not discard:
+        lines.append("(none)")
+    else:
+        for dlf, status, cite, note in discard:
+            lines.append(f"- [{status}] {cite} ({dlf})" + (f" | {note}" if note else ""))
 
     (OUT / "verification.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("Wrote", OUT / "verification.md")

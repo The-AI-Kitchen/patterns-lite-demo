@@ -1,319 +1,423 @@
-# Lens 3: Causal Chains
+# Lens 3: Causal Chains — Amazon Delivery Worker Corpus
 
-Chains the participant explicitly linked (markers: because, so I, that led me to, if I don't then, after that I started). Grouped by transcript, in order of appearance.
-
----
-
-## p01 — CS junior
-
-### Chain 1 — Abandonment (calendar trust)
-Trigger: Camino calendar date conflicted with assignment page date for last week's assignment.
-Action: Caught the mismatch when starting Thursday; realized trusting the calendar would have meant missing the deadline.
-Result: Dropped the Camino calendar entirely; uses the assignment list instead.
-Quote: "if I'd trusted the calendar I would have just missed it. So I don't trust the calendar at all anymore."
-[p01: "if I'd trusted the calendar I would have just..."]
-
-### Chain 2 — Abandonment (Notion)
-Trigger: Tried Notion last quarter for tracking.
-Action: Spent two hours setting up a database.
-Result: Never opened it again; returned to Apple Reminders because "Reminders is dumb but I open it."
-Quote: "I tried Notion last quarter and it was, I spent like two hours setting up this beautiful database and then I never opened it again."
-[p01: "I tried Notion last quarter and it was..."]
-
-### Chain 3 — Workaround (group deadlines into Reminders)
-Trigger: Teammate's Figma file is owed by Sunday and group deadlines live in Slack.
-Action: Adds the teammate's deliverable into Apple Reminders.
-Result: Will actually see/chase the contribution, which would otherwise slip.
-Quote: "That goes in Reminders too because if I waited for him to actually do it I'd never see his contribution."
-[p01: "That goes in Reminders too because if I waited..."]
-
-### Chain 4 — Habit formation (morning Camino check)
-Trigger: Missed a Camino post posted at 11pm because Do Not Disturb was on; professor referenced it in lecture.
-Action: Started checking Camino itself every morning before class.
-Result: Email notifications are no longer trusted as the signal.
-Quote: "So now I check Camino itself every morning before class. I don't trust email notifications."
-[p01: "So now I check Camino itself every morning before..."]
-
-### Chain 5 — Abandonment (iCal feed and Google Calendar)
-Trigger: Tried Camino iCal feed (kept showing duplicate events) and tried Google Calendar in parallel with Reminders.
-Action: Couldn't resolve duplicates in iCal; Google Calendar and Reminders disagreed, forcing a third check.
-Result: Gave up both; reverted to Reminders alone.
-Quote: "they'd disagree, and now I'm checking three things instead of two. So I went back to just Reminders."
-[p01: "they'd disagree, and now I'm checking three things..."]
-
-### Chain 6 — Workaround (Slack-to-Reminders translation)
-Trigger: Internal group deadlines live in a Slack chat that scrolls.
-Action: Manually translates each Slack message into a Reminder.
-Result: Deadlines survive past the scroll; cost is constant retyping.
-Quote: "those deadlines live in Slack, in our group chat, which scrolls. So if I don't write them down they disappear."
-[p01: "those deadlines live in Slack, in our group chat..."]
+Each chain captures a sequence the participant explicitly links (because, so, that's why, depending on, after that, etc.). Quotes are verbatim from the transcripts.
 
 ---
 
-## p02 — Biology sophomore
+## A1
 
-### Chain 1 — Switching (phone to paper planner)
-Trigger: Phone notifications (Slack, Camino, group chat, Snapchat) buzzed every five minutes, indistinguishable.
-Action: Stopped using the phone for school.
-Result: Phone reduced to texts and music; paper planner is now the primary tool.
-Quote: "I couldn't tell which buzz was the important one. So I stopped relying on the phone for school"
-[p02: "I couldn't tell which buzz was the important one..."]
+### Chain 1 — Coping (avoid drama to protect income)
+- Trigger: works around people with criminal records and people willing to "tell on" coworkers for extra hours.
+- Action: refuses to talk to anyone at work.
+- Result: stays out of firing risk and keeps the small income needed for housing.
+- Chain type: Coping
+- Anchor: [A1: "I don't talk to nobody. Because you can get fired."]
+- Reinforcing link in same chain: [A1: "I need my little bit of money so I can maintain a little hundred dollar room"]
 
-### Chain 2 — Habit formation (Wednesday recheck)
-Trigger: Professors add assignments mid-week, making the Sunday planner copy stale by Wednesday.
-Action: Started checking Camino again on Wednesday nights.
-Result: Catches mid-week additions before they slip.
-Quote: "professors add stuff during the week, so by Wednesday my planner is wrong. I've started checking Camino again on Wednesday nights to catch the new stuff."
-[p02: "professors add stuff during the week, so by Wednesday..."]
+### Chain 2 — Coping (treat the shift as a performance)
+- Trigger: hostile, judgmental treatment at the warehouse.
+- Action: puts on an "act" at work and only relaxes after the shift ends.
+- Result: feels relief only at the end of the day.
+- Chain type: Coping
+- Anchor: [A1: "It's more relaxing when you leave the job."]
+- Reinforcing link: [A1: "when you go to work, you have to put on that another act, another show"]
 
-### Chain 3 — Abandonment (Google Calendar)
-Trigger: Tried Google Calendar last year; saw school due dates on the phone where everything else also lived.
-Action: Ignored them because they blended with everything else on the phone.
-Result: Reverted to paper planner; physical friction of opening it became the feature.
-Quote: "I'd see them on my phone and I'd ignore them because everything else was on my phone too. The planner works because I have to physically open it."
-[p02: "I'd see them on my phone and I'd ignore..."]
+### Chain 3 — Switching (low pay drives plan to exit to a different field)
+- Trigger: $15/hour and bad treatment in minimum-wage customer-facing work.
+- Action: planning to quit and pursue law enforcement / government work.
+- Result: imminent exit from Amazon delivery role.
+- Chain type: Switching (planned)
+- Anchor: [A1: "I'm tired with the treatment. So, I'm thinking about just becoming a cop"]
+- Reinforcing link: [A1: "working minimum wage jobs is just not ... 15 dollars is not enough"]
 
----
-
-## p03 — Business senior
-
-### Chain 1 — Habit formation (two-day buffer system)
-Trigger: Last spring, a marketing project and a Tuesday all-day internship offsite collided; missed both, had to ask prof for extension and explain to manager.
-Action: Built a buffer system: pull each Camino due date into Google Calendar as a timed event two days before the real due date.
-Result: Calendar absorbs the stress; trusts the calendar as the source of truth.
-Quote: "I missed both deadlines, kind of... After that I built the buffer system."
-[p03: "Last spring I had a marketing project due..."]
-
-### Chain 2 — Abandonment (Camino notifications)
-Trigger: Notifications came at random hours with no urgency signal.
-Action: Turned them off.
-Result: Treats Camino as a passive source, extracts from it during a Friday planning hour.
-Quote: "The notifications are a joke. I have them turned off."
-[p03: "The notifications are a joke. I have them turned..."]
-
-### Chain 3 — Workaround (Gmail filter for MGMT 175)
-Trigger: MGMT 175 professor stopped updating Camino at week four; class runs via email.
-Action: Built a Gmail filter that flags anything from her.
-Result: Doesn't lose assignments, though "it shouldn't be necessary."
-Quote: "The class is run through emails. I have a Gmail filter that flags anything from her, otherwise I'd lose half the assignments."
-[p03: "The class is run through emails. I have..."]
-
-### Chain 4 — Workaround (manual Asana-to-Calendar copy)
-Trigger: Asana-Google Calendar integration is "sketchy."
-Action: Manually pulls Asana dates into Google Calendar.
-Result: Keeps Google Calendar as the single trusted view.
-Quote: "I pull the Asana dates into my Google Calendar manually because the integration is sketchy."
-[p03: "I pull the Asana dates into my Google Calendar..."]
+### Chain 4 — Workaround (commute around homelessness)
+- Trigger: homeless, staying with different friends in different cities.
+- Action: chains together transit, train, and a $35 cab to reach the warehouse.
+- Result: gets to shift on time but burns through wages on transport.
+- Chain type: Workaround
+- Anchor: [A1: "Because I'm homeless. But I'm working and everything."]
+- Reinforcing link: [A1: "depending on where I'm staying with my friends, I take the [transit]"]
 
 ---
 
-## p04 — English junior
+## A2
 
-### Chain 1 — Abandonment (Notion)
-Trigger: Tried Notion, built a reading log.
-Action: Wrote in it three times.
-Result: Stopped using it; concluded Notion's organizing demand is the friction.
-Quote: "I made a whole reading log and then I wrote in it three times... The problem with Notion is it asks me to think about how to organize."
-[p04: "I made a whole reading log and then I..."]
+### Chain 1 — Switching (saw automation creeping in, switched to gig delivery)
+- Trigger: observed McDonald's pushing customers to self-order kiosks.
+- Action: started thinking about automation displacing workers.
+- Result: ended up moving into delivery / gig work.
+- Chain type: Switching
+- Anchor: [A2: "I went into McDonald's before and I saw that they was trying"]
+- Reinforcing link: [A2: "that's what made me think about it."] → [A2: "Is that how you ended up doing this kind of work now? ... Yeah."]
 
-### Chain 2 — Abandonment (Camino notifications)
-Trigger: Notifications arrived at midnight and Sunday morning.
-Action: Turned them off.
-Result: Checks Camino on her own schedule.
-Quote: "They came at midnight, they came on Sunday morning, they didn't respect any kind of human rhythm. I'd rather check Camino myself when I'm ready."
-[p04: "They came at midnight, they came on Sunday morning..."]
+### Chain 2 — Habit formation (rotate companies to keep all platforms warm)
+- Trigger: wants enough hours but Amazon hours vary.
+- Action: deliberately designates one day per company so each gets worked weekly.
+- Result: keeps access to multiple income streams.
+- Chain type: Habit formation
+- Anchor: [A2: "Amazon, I don't work them every day because I want to give my self time"]
 
----
-
-## p05 — Math sophomore
-
-### Chain 1 — Habit formation (weekly problem-set cadence)
-Trigger: Three classes have the same weekly due-day pattern (Real Wed, Linear Fri, Discrete Fri).
-Action: Locked-in weekday-by-weekday work pattern (Wed Real, Thu Linear, Thu/Fri Discrete).
-Result: "There's nothing to track" — the schedule is internalized.
-Quote: "It's the same pattern every week. There's nothing to track."
-[p05: "It's the same pattern every week. There's nothing..."]
-
-### Chain 2 — Habit formation (Thursday submission-time recheck)
-Trigger: Two weeks ago forgot the Linear set was due Friday 2pm not midnight; almost missed it.
-Action: Started checking Linear submission time on Thursday nights.
-Result: Inserts a confirmation step to prevent the same miss.
-Quote: "I now check Linear submission time on Thursday nights just in case."
-[p05: "I now check Linear submission time on Thursday..."]
+### Chain 3 — Workaround (avoid stacking orders to prevent mix-ups)
+- Trigger: doing multiple Prime Now orders simultaneously caused items to get confused.
+- Action: chooses to fulfill one order at a time.
+- Result: avoids mistakes on items.
+- Chain type: Workaround
+- Anchor: [A2: "You can, but I wouldn't advise that because your items and things can get confused"]
 
 ---
 
-## p06 — Mechanical Engineering senior
+## A3
 
-### Chain 1 — Habit formation (Sunday cross-check)
-Trigger: Forgot to put a subsystem review (Trello) into the personal spreadsheet last month; scheduled exam study on top of it; had to apologize and reschedule.
-Action: Started a Sunday cross-check between Trello and the spreadsheet.
-Result: Reconciles the two-system overlap before it bites.
-Quote: "I had to apologize to the team and reschedule my study. Now I do a Sunday cross-check between Trello and the sheet."
-[p06: "I had to apologize to the team and reschedule..."]
+### Chain 1 — Switching (drove Uber, got tired of riders, switched to Uber Eats)
+- Trigger: as a regular Uber driver, was "irritated" dealing with passengers.
+- Action: turned on Uber Eats instead with "one button."
+- Result: stopped taking long passenger trips and started doing food deliveries.
+- Chain type: Switching
+- Anchor: [A3: "if I'm a little irritated, I don't have to get people, and I can just literally"]
 
-### Chain 2 — Abandonment (Notion)
-Trigger: Tried Notion; used it for two weeks.
-Action: Realized Notion is for "thinking about your system" while his system is already built.
-Result: Dropped Notion to avoid quarterly rebuilds.
-Quote: "Notion is for thinking about your system, and my system is already built. I don't want to rebuild every quarter."
-[p06: "Notion is for thinking about your system, and..."]
+### Chain 2 — Habit formation (waits for surge to take Flex blocks)
+- Trigger: regular Flex blocks pay around $40 for four hours.
+- Action: waits until high demand pushes block to ~$90 before accepting.
+- Result: maximizes pay per block while still finishing in two hours.
+- Chain type: Habit formation
+- Anchor: [A3: "So, I wait till I see a high demand so that I can make the most."]
+- Reinforcing link: [A3: "I pick those because the pay is like maybe if you do a 4 hour block"]
 
-### Chain 3 — Abandonment (Camino notifications)
-Trigger: Notifications came at random times.
-Action: Snoozed them, then turned them off.
-Result: Checks Camino on his own schedule.
-Quote: "They came at random times and I'd just snooze them. I check Camino on my schedule, not its."
-[p06: "They came at random times and I'd just snooze..."]
+### Chain 3 — Workaround (kids ride along on weekend Flex)
+- Trigger: kids' dad is incarcerated; she has to work around their schedule.
+- Action: lets kids ride with her on weekend Flex routes and hand her packages.
+- Result: weekend Flex becomes workable for her family.
+- Chain type: Workaround
+- Anchor: [A3: "they like to do Amazon Flex so I would let them ride with me"]
+- Reinforcing link: [A3: "I have work around their schedule."]
 
----
+### Chain 4 — Abandonment (got burned on Uber Eats unpaid re-runs, "never went back" to one form)
+- Trigger: Uber Eats doesn't compensate when the restaurant errors and she has to return.
+- Action: she "didn't like that either" and stopped doing that work pattern.
+- Result: stopped re-running orders for them.
+- Chain type: Abandonment
+- Anchor: [A3: "So I never went back. (laughs)"]
+- Reinforcing link: [A3: "if they mess up an order and you have to go back to the restaurant"]
 
-## p07 — Psychology junior
+### Chain 5 — Workaround (load van by delivery order before driving)
+- Trigger: the app gives her the next stop, but she wants to know what's coming next.
+- Action: pre-arranges packages in the car by sequence.
+- Result: faster handoff at each stop.
+- Chain type: Workaround
+- Anchor: [A3: "I try to put the order in the car so I can know what is next"]
 
-### Chain 1 — Switching (Reminders/paper/Calendar → Notion)
-Trigger: Tried Reminders, a paper planner, and Google Calendar; none gave multi-view affordances.
-Action: Built a Notion database with class tag, type tag, status, sortable/filterable views.
-Result: Notion became the durable system across three Notion redesigns.
-Quote: "I tried Reminders, I tried a paper planner, I tried Google Calendar. The thing about Notion that worked is the database."
-[p07: "I tried Reminders, I tried a paper planner..."]
+### Chain 6 — Workaround (hide packages because customers aren't home)
+- Trigger: customers expect packages to be concealed so passers-by don't take them.
+- Action: instead of leaving on the stoop, hides the package and takes a photo of the location.
+- Result: customer can find it later via the photo.
+- Chain type: Workaround
+- Anchor: [A3: "I wouldn't just leave someone's package sitting on the front stoop because anybody"]
+- Reinforcing link: [A3: "They wanted us to take pictures of where we dropped off the location"]
 
-### Chain 2 — Coping (self-induced lesson on lying to system)
-Trigger: Marked a Friday paper draft for Wednesday in Notion to finish early; mistook Wednesday for the real date and submitted a half draft.
-Action: Recognized self-sabotage of own dates.
-Result: Rule: "don't lie to your own system."
-Quote: "I'd outsmarted myself. Lesson: don't lie to your own system."
-[p07: "I'd outsmarted myself. Lesson: don't lie to your..."]
-
-### Chain 3 — Abandonment (Camino notifications)
-Trigger: Notifications were stressful without actionable info.
-Action: Turned them off.
-Result: Checks Camino Sunday only.
-Quote: "The notifications were not helpful, they just stressed me out without giving me actionable info."
-[p07: "The notifications were not helpful, they just stressed..."]
-
----
-
-## p08 — CS senior
-
-### Chain 1 — Habit formation (GitHub Projects sprint system)
-Trigger: Last quarter, deep in a 12-hour Roblox take-home, forgot to submit a code review for 161 and lost points.
-Action: Started GitHub Projects, treating each week as a sprint with self-standups.
-Result: Sprint structure makes the load feel finite; "not letting that happen again."
-Quote: "The take-home took me 12 hours and I just lost the day. I emailed the prof, he was cool, but I lost points. After that I started GitHub Projects."
-[p08: "I forgot to submit a code review for 161..."]
-
-### Chain 2 — Workaround (Python scrape of Canvas page)
-Trigger: Manual Sunday intake from Camino into GitHub Projects.
-Action: Wrote a Python script that scrapes the Canvas assignments page and outputs a markdown list.
-Result: Speeds up intake; "probably violates some TOS but it works."
-Quote: "I have a little Python thing that scrapes my Canvas assignments page and outputs a markdown list."
-[p08: "I have a little Python thing that scrapes..."]
-
-### Chain 3 — Abandonment (Notion)
-Trigger: Tried Notion in ~2023; found it too slow.
-Action: Dropped Notion in favor of hotkey-driven GitHub Projects.
-Result: Optimizes for velocity.
-Quote: "Too slow. I want hotkeys. GitHub Projects has the velocity I need."
-[p08: "Too slow. I want hotkeys. GitHub Projects has..."]
-
-### Chain 4 — Abandonment (Camino notifications)
-Trigger: Notifications interrupted context.
-Action: Turned them off.
-Result: Controls when he context-switches into school mode.
-Quote: "Off. They're noise. I want to control when I context-switch into school mode."
-[p08: "Off. They're noise. I want to control when..."]
+### Chain 7 — Switching (planned exit from gig work for stability)
+- Trigger: bills going up as her daughters get older; daily pay isn't enough.
+- Action: looking for a job with a "bigger paycheck."
+- Result: gig delivery framed as a stopgap, not a future.
+- Chain type: Switching (planned)
+- Anchor: [A3: "I need a bigger paycheck. I need more money and these jobs here doesn't offer that."]
 
 ---
 
-## p09 — Sociology junior (transfer)
+## A4
 
-### Chain 1 — Workaround (emailing herself a weekly list)
-Trigger: New to Camino at SCU, can't reliably find due dates.
-Action: Emails herself every Sunday with a list of what she thinks is due.
-Result: Imperfect coverage — last week three items weren't on her list and she missed one.
-Quote: "I email myself every Sunday with a list of what I think is due that week."
-[p09: "I email myself every Sunday with a list..."]
+### Chain 1 — Switching (chases the easier sign-in model, Uber Eats over Flex)
+- Trigger: Flex requires committing to scheduled blocks; Uber Eats does not.
+- Action: prefers Uber Eats because he can sign in/out at will.
+- Result: gravitates toward Uber Eats when he wants to work.
+- Chain type: Switching (preference)
+- Anchor: [A4: "I kind of prefer the Uber Eats because that is easier to sign in"]
 
-### Chain 2 — Abandonment (Notion, never started)
-Trigger: Downloaded Notion because "everyone says Notion."
-Action: Opened it once; saw "a wall of empty pages."
-Result: Closed it; didn't return.
-Quote: "It's a wall of empty pages and I didn't know where to start. I closed it."
-[p09: "It's a wall of empty pages and I didn't..."]
+### Chain 2 — Abandonment (health decline ended deliveries)
+- Trigger: health declined.
+- Action: stopped doing deliveries.
+- Result: no longer doing the work he described.
+- Chain type: Abandonment
+- Anchor: [A4: "My health has gone down, so I don't do any deliveries."]
 
-### Chain 3 — Workaround (SOCI 169 syllabus-to-Modules dance)
-Trigger: Prof posts assignments in Modules but due dates only in the syllabus PDF.
-Action: Opens syllabus, scrolls to the right week, finds the date, then returns to Modules to submit.
-Result: Repeats this for every assignment.
-Quote: "So I have to open the syllabus, scroll to the right week, find the assignment, then go back to Modules to actually submit."
-[p09: "So I have to open the syllabus, scroll to..."]
+### Chain 3 — Habit formation (photograph drop-off for proof)
+- Trigger: customers may dispute that the package arrived.
+- Action: when no one is home, takes a photo of the package on the porch and a photo of the address.
+- Result: photograph serves as proof against disputes.
+- Chain type: Habit formation
+- Anchor: [A4: "when you make a drop and there's nobody there, you take a picture of the package"]
+- Reinforcing link: [A4: "That way, if there's any questions, there's a photograph as proof"]
 
 ---
 
-## p10 — Marketing senior
+## A5
 
-### Chain 1 — Workaround (voice memo buffer in class)
-Trigger: Reads slowly (dyslexia); writing a deadline live causes her to miss the next sentence.
-Action: Records a voice memo whenever a prof says something important.
-Result: Catches the deadline without losing the thread; transcribes later into Reminders.
-Quote: "If a prof says 'this is due next Friday' and I try to write it down in real time, I miss the next sentence. The voice memo lets me catch the deadline"
-[p10: "Because I read slowly. If a prof says..."]
+### Chain 1 — Abandonment (slipped on ice, quit delivery side after 4 days)
+- Trigger: nobody told him about snow cleats during winter; door opens, he slips and slams shoulder into the ground.
+- Action: tries to push through, but the shoulder injury lasts six weeks.
+- Result: only worked the delivery role for four days.
+- Chain type: Abandonment
+- Anchor: [A5: "I had started in the middle of winter and during one deliver"]
+- Reinforcing link: [A5: "it was only four days is because I had started in the middle of winter"]
 
-### Chain 2 — Workaround (relying on ear over Camino)
-Trigger: Camino text is dense and layout varies by class; usable but slow for her.
-Action: Relies on her own ear in lecture rather than Camino as primary source.
-Result: Deadline capture happens in audio first; Camino is a secondary check.
-Quote: "Camino is hard to use for me... So I rely on my own ear in class more than Camino."
-[p10: "Camino is hard to use for me. The..."]
+### Chain 2 — Switching (transferred between buildings to escape isolation/negativity)
+- Trigger: starting role at fulfillment center was "a lot more lonely."
+- Action: transferred to outbound ship dock for more social contact.
+- Result: ended up in a more negative environment than he could handle, prompting more moves.
+- Chain type: Switching
+- Anchor: [A5: "So I transferred to outbound ship dock, that was a little more social"]
 
-### Chain 3 — Abandonment (Notion)
-Trigger: Tried Notion; blinking cursor and empty page induced anxiety.
-Action: Stopped using it.
-Result: Stuck with Reminders because "it's small. One line per item."
-Quote: "The blinking cursor and the empty page made me anxious. Reminders is better because it's small."
-[p10: "The blinking cursor and the empty page made me..."]
+### Chain 3 — Workaround (walk customers back to their house because the device blocks delivery)
+- Trigger: the Rabbit device won't let him mark delivery unless GPS detects he's at the address.
+- Action: walks back to the customer's house with them even when they meet him at the curb.
+- Result: completes the delivery despite the GPS block.
+- Chain type: Workaround
+- Anchor: [A5: "if the GPS is screwing up it will not let you proceed, which is really stupid"]
+- Reinforcing link: [A5: "I'd end up having to walk back to their house with them because the device wouldn't let me"]
 
-### Chain 4 — Workaround (recording group calls)
-Trigger: Note-taking during MKTG 175 group calls conflicts with participating.
-Action: Records voice memos of group calls when allowed; transcribes the audio later.
-Result: Doesn't have to take notes live.
-Quote: "I record voice memos of our group calls when I'm allowed to, so I don't have to take notes during."
-[p10: "I record voice memos of our group calls..."]
+### Chain 4 — Habit formation (labor-track everything because metrics decide site standing)
+- Trigger: any associate clocked in but not labor-tracked drags down the site's percentage.
+- Action: PAs constantly relabel where each worker is assigned.
+- Result: continuous reassignment tracking became routine on every shift.
+- Chain type: Habit formation
+- Anchor: [A5: "it accounted for metrics for the site."]
+- Reinforcing link: [A5: "if there is somebody who is clocked in but isn't labor tracked"]
+
+### Chain 5 — Abandonment (one-day shipping pushed quality down → he left)
+- Trigger: when Amazon moved to one-day shipping, departments started cutting corners and packing the wrong items.
+- Action: kept escalating quality issues, was told "Amazon doesn't care about quality anymore."
+- Result: had had enough and left.
+- Chain type: Abandonment
+- Anchor: [A5: "When they decided to do this one day shipping the just crossed all"]
+- Reinforcing link: [A5: "Amazon doesn't care about quality anymore"]
+
+---
+
+## A6
+
+### Chain 1 — Habit formation (sort by direction before driving the route)
+- Trigger: receives a stack of packages for a zip code area each morning.
+- Action: groups packages by NW/SW/NE/SE quadrant and numbers them.
+- Result: efficient route through the day.
+- Chain type: Habit formation
+- Anchor: [A6: "I look at the zip code. Okay. And I look at the streets and the avenues."]
+- Reinforcing link: [A6: "I'll put this street this avenue on one side"]
+
+### Chain 2 — Habit formation (target a weekly dollar goal rather than hourly pay)
+- Trigger: pay is per-package, not per-hour; he wants to know where he stands.
+- Action: sets a weekly target ($2,000) and decides daily volume to hit it.
+- Result: works six days a week, taking only Saturday off.
+- Chain type: Habit formation
+- Anchor: [A6: "I don't base this job on an hourly job. I base it on, Hey, what is your goal"]
+- Reinforcing link: [A6: "I'll take on, like I said, 200, 300 bucks a day if I'm trying to get $2000"]
+
+### Chain 3 — Habit formation (rush morning load to free the afternoon)
+- Trigger: full day is available but he wants the rest of the day for himself.
+- Action: hurries through the route in the morning.
+- Result: has the remainder of the day free.
+- Chain type: Habit formation
+- Anchor: [A6: "I'm pretty much hurry to get it out the way so I can have the rest of the day"]
+
+---
+
+## A7
+
+### Chain 1 — Abandonment (left Amazon because he was never home)
+- Trigger: 8 to 12 hour shifts kept him away from home.
+- Action: chose not to stay in the role.
+- Result: stopped working at Amazon.
+- Chain type: Abandonment
+- Anchor: [A7: "When I was up at Amazon, it was a good job, but I was just never home."]
+
+### Chain 2 — Habit formation (rush the shift to get home faster)
+- Trigger: dispatcher gives him a list of tasks for the shift.
+- Action: works as fast as possible.
+- Result: "the quicker you did it, the quicker you got home."
+- Chain type: Habit formation
+- Anchor: [A7: "Basically, the quicker you did it, the quicker you got home."]
+
+### Chain 3 — Workaround (keep phone numbers on him because automation blocks contact)
+- Trigger: when something goes wrong, there's no boss on site; you get routed through "stupid automation."
+- Action: keeps a written list of phone numbers in the truck.
+- Result: can reach a human when needed.
+- Chain type: Workaround
+- Anchor: [A7: "I always kept a list of the phone numbers on me."]
+- Reinforcing link: [A7: "you can't get a hold of anybody because they put you through all that stupid automation"]
+
+### Chain 4 — Habit formation (sign overtime agreement at hire → must take mandatory OT)
+- Trigger: contract signed at start commits to mandatory overtime with 48-hour notice.
+- Action: accepts mandatory overtime when scheduled in advance.
+- Result: works overtime he otherwise would refuse.
+- Chain type: Habit formation
+- Anchor: [A7: "before you start your job, you signed their contract saying you can work that overtime"]
+- Reinforcing link: [A7: "So that's, you sign that so you have to do it."]
+
+---
+
+## A9
+
+### Chain 1 — Workaround (rode with another worker because she had no car)
+- Trigger: did not yet have a driver's license or her own car.
+- Action: was paired with a coworker who lived nearby to commute together; she gave gas money.
+- Result: kept working at Flex until she got her license.
+- Chain type: Workaround
+- Anchor: [A9: "they found a person that lived close to me that was willing to commute"]
+- Reinforcing link: [A9: "I was able to give them gas money and then, until I got my own wheels"]
+
+### Chain 2 — Switching (got license → wanted to try something else → left Flex)
+- Trigger: obtained her driver's license while at Flex.
+- Action: wanted to try something different.
+- Result: left Flex after about a year.
+- Chain type: Switching
+- Anchor: [A9: "after a year I just wanted to try something, because I had also got my license"]
+
+### Chain 3 — Habit formation (work weekends because volume is there)
+- Trigger: weekends have more work / require people.
+- Action: routinely works Friday and Saturday and takes Sunday off.
+- Result: a regular Fri/Sat-on, Sun-off pattern.
+- Chain type: Habit formation
+- Anchor: [A9: "I know the weekends, the ones that they require people to work more"]
+
+---
+
+## A10
+
+### Chain 1 — Habit formation (wait for surge blocks to maximize hourly rate)
+- Trigger: standard four-hour block starts at $80 but last-minute/early-morning blocks surge.
+- Action: waits to accept until the rate climbs.
+- Result: regularly captures $30/hr+ blocks.
+- Chain type: Habit formation
+- Anchor: [A10: "if you wait, especially the early morning blocks"]
+- Reinforcing link: [A10: "Yeah, I usually do. I'll just wait. Because I have another job"]
+
+### Chain 2 — Workaround (track own mileage because Amazon won't)
+- Trigger: Amazon does not record her mileage; mileage is tax-deductible for her.
+- Action: keeps her own mileage log.
+- Result: keeps documentation for taxes.
+- Chain type: Workaround
+- Anchor: [A10: "I do keep a track of my mileage because that's tax-deductible."]
+
+### Chain 3 — Workaround (override the app's recommended order with her own route)
+- Trigger: the app gives a delivery order that "sometimes seems really random."
+- Action: ignores the app's sequence and plans her own route from the map.
+- Result: drives her own route.
+- Chain type: Workaround
+- Anchor: [A10: "You can see them on the map, and you can make your own route"]
+
+### Chain 4 — Coping (frame the role as freelance to manage deactivation risk)
+- Trigger: read in Facebook groups that Amazon "will deactivate your account at the drop of a dime."
+- Action: refuses to think of herself as an employee or rely on the income.
+- Result: keeps another job and treats Flex as extra money only.
+- Chain type: Coping
+- Anchor: [A10: "they'll deactivate your account at the drop of a dime. You won't even know why."]
+- Reinforcing link: [A10: "I don't think it would be good to rely on it and consider yourself an employee"]
+
+### Chain 5 — Workaround (turn to Facebook groups for answers Amazon won't give)
+- Trigger: two distribution centers nearby; she wants to know which assigns more packages and stays local.
+- Action: posts the question in an Amazon-driver Facebook group.
+- Result: gets mixed feedback but uses the group as her support channel.
+- Chain type: Workaround
+- Anchor: [A10: "So I asked people about the one I haven't been to because I heard"]
+
+---
+
+## A11
+
+### Chain 1 — Switching (mass walkout after surprise pay cut)
+- Trigger: after a couple months on $15/hr through the courier service, Amazon took over payment and dropped the hourly rate sharply.
+- Action: most of the delivery group "practically walked out."
+- Result: heavy turnover and increased route loads for those who stayed.
+- Chain type: Switching (mass exit)
+- Anchor: [A11: "a good chunk of our group, because we had this massive group"]
+- Reinforcing link: [A11: "they also increased a lot of our delivery loads"]
+
+### Chain 2 — Workaround (hide packages because tenants warned of theft)
+- Trigger: apartment leasing manager refused to accept packages; recipients said not to leave packages outside doors.
+- Action: contacted Amazon, was told to attempt delivery and hide the packages.
+- Result: hid packages "as best as I can" in inconspicuous spots.
+- Chain type: Workaround
+- Anchor: [A11: "if you are able to hide the packages, then you can do so"]
+- Reinforcing link: [A11: "a lot of these recipients are saying do not leave outside their doors due to a lot of theft"]
+
+### Chain 3 — Workaround (server outage → switch from rabbit to phone app)
+- Trigger: the rabbit devices' servers went down for three days.
+- Action: everyone downloaded the app onto their phone and used the camera to scan.
+- Result: kept delivering, but battery and data got "eaten up alive."
+- Chain type: Workaround
+- Anchor: [A11: "everyone had to download the app onto their phone and then use it to scan"]
+- Reinforcing link: [A11: "it used a lot of battery power, so you couldn't really take it in and out"]
+
+### Chain 4 — Coping (defensive hiding after a customer berated her)
+- Trigger: customer chewed her out for ringing his doorbell three times when he had a sick child and a dog.
+- Action: makes a note on the device telling future drivers not to knock and to leave the package in front of the door.
+- Result: behavior change propagates to subsequent drivers for that address.
+- Chain type: Coping
+- Anchor: [A11: "next time I'll make a note, if you have any packages, to leave them on your front door"]
+- Reinforcing link: [A11: "another note, do not knock on this person's door"]
+
+### Chain 5 — Workaround (post-it notes because customer notes aren't reliable)
+- Trigger: recipients sometimes fail to flag pets/children/no-knock instructions in their delivery notes.
+- Action: leaves a post-it with the courier service number or her own phone number after a delivery attempt.
+- Result: customer reaches back rather than escalating to Amazon.
+- Chain type: Workaround
+- Anchor: [A11: "they gave us these post-it notes to say, 'Hey, we attempted delivery'"]
+
+### Chain 6 — Abandonment (body broke down from the route load → quit)
+- Trigger: getting in and out of the van caused sciatica and knee problems.
+- Action: split from the delivery role.
+- Result: no longer doing delivery work.
+- Chain type: Abandonment
+- Anchor: [A11: "I had to split due to a lot of the physical, I don't want to say physical, toils"]
+- Reinforcing link: [A11: "It was a lot of getting in and out of the van."]
+
+### Chain 7 — Habit formation (hide packages behind objects to defeat porch pirates)
+- Trigger: customers report theft from porches; she's also dropping at unsupervised locations.
+- Action: tucks packages behind flower pots and in corners.
+- Result: customers eventually find them; reduces theft complaints.
+- Chain type: Habit formation
+- Anchor: [A11: "I left it in the corner behind a flower pot as best as I could to make it inconspicuous"]
 
 ---
 
 ## Cross-transcript recurring chain patterns
 
-### Pattern A — Notion tried and abandoned
-Several participants explicitly link trying Notion to dropping it, citing setup overhead, empty-page anxiety, or "rebuild every quarter."
-- [p01: "I tried Notion last quarter and it was..."]
-- [p04: "I made a whole reading log and then I..."]
-- [p06: "Notion is for thinking about your system, and..."]
-- [p08: "Too slow. I want hotkeys. GitHub Projects has..."]
-- [p09: "It's a wall of empty pages and I didn't..."]
-- [p10: "The blinking cursor and the empty page made me..."]
+### Pattern 1 — Waiting out the algorithm for surge pay (Habit formation, 2+ participants)
+Workers learn that platform blocks/orders pay more if they don't accept immediately, then build a habit of waiting.
+- [A3: "So, I wait till I see a high demand so that I can make the most."]
+- [A10: "if you wait, especially the early morning blocks"]
 
-### Pattern B — Camino notifications turned off
-Multiple participants linked random/late notification timing to turning notifications off and switching to a self-scheduled Camino check.
-- [p03: "The notifications are a joke. I have them turned..."]
-- [p04: "They came at midnight, they came on Sunday morning..."]
-- [p06: "They came at random times and I'd just snooze..."]
-- [p07: "The notifications were not helpful, they just stressed..."]
-- [p08: "Off. They're noise. I want to control when..."]
+### Pattern 2 — Photographing or hiding packages to defend against disputes/theft (Workaround, 4+ participants)
+Drivers insert a manual photo or hiding step beyond the basic scan because customers fight charge-backs or report theft.
+- [A3: "I wouldn't just leave someone's package sitting on the front stoop because anybody"]
+- [A4: "when you make a drop and there's nobody there, you take a picture of the package"]
+- [A11: "if you are able to hide the packages, then you can do so"]
+- [A11: "I left it in the corner behind a flower pot as best as I could to make it inconspicuous"]
 
-### Pattern C — A specific miss caused a new recurring check or system
-A concrete missed deadline was the named cause of a new habit or system.
-- [p01: "So now I check Camino itself every morning before..."] (missed 11pm Camino post)
-- [p02: "professors add stuff during the week, so by Wednesday..."] (Sunday copy goes stale)
-- [p03: "Last spring I had a marketing project due..."] (project plus offsite collision)
-- [p05: "I now check Linear submission time on Thursday..."] (2pm vs midnight scare)
-- [p06: "I had to apologize to the team and reschedule..."] (Trello-sheet mismatch)
-- [p08: "I forgot to submit a code review for 161..."] (lost a day to take-home)
+### Pattern 3 — Bodily injury or wear-down forces exit (Abandonment, 2+ participants)
+A specific physical event or accumulated load ends the delivery career.
+- [A4: "My health has gone down, so I don't do any deliveries."]
+- [A5: "I had started in the middle of winter and during one deliver"]
+- [A11: "I had to split due to a lot of the physical, I don't want to say physical, toils"]
 
-### Pattern D — Manual translation from chat/email/syllabus into a personal tracker
-Chains where the participant explicitly retypes deadlines from one surface into their own system because the original location doesn't persist or surface them.
-- [p01: "those deadlines live in Slack, in our group chat..."]
-- [p03: "I pull the Asana dates into my Google Calendar..."]
-- [p03: "The class is run through emails. I have..."]
-- [p08: "I have a little Python thing that scrapes..."]
-- [p09: "So I have to open the syllabus, scroll to..."]
+### Pattern 4 — Defensive distance from coworkers and customers (Coping, 2+ participants)
+A bad interaction, surveillance, or fear of being reported produces a routine of minimal contact / scripted civility.
+- [A1: "I don't talk to nobody. Because you can get fired."]
+- [A11: "next time I'll make a note, if you have any packages, to leave them on your front door"]
+
+### Pattern 5 — Treating support as broken, routing around it (Workaround, 3+ participants)
+When the official channel fails (automation, slow email response, useless rep), drivers build their own backchannels: written phone lists, Facebook groups, or post-it notes.
+- [A7: "I always kept a list of the phone numbers on me."]
+- [A10: "they'll deactivate your account at the drop of a dime. You won't even know why."]
+- [A10: "So I asked people about the one I haven't been to because I heard"]
+- [A11: "they gave us these post-it notes to say, 'Hey, we attempted delivery'"]
+
+### Pattern 6 — Pay cut or low pay drives planned/actual exit (Switching, 3+ participants)
+The dollar amount itself is the trigger for a chain ending in leaving or planning to leave.
+- [A1: "I'm tired with the treatment. So, I'm thinking about just becoming a cop"]
+- [A3: "I need a bigger paycheck. I need more money and these jobs here doesn't offer that."]
+- [A11: "a good chunk of our group, because we had this massive group"]
+
+### Pattern 7 — Pre-sequencing the route before driving (Habit formation, 2+ participants)
+Drivers reorder the load or impose their own route rather than trust the app's order.
+- [A3: "I try to put the order in the car so I can know what is next"]
+- [A6: "I look at the zip code. Okay. And I look at the streets and the avenues."]
+- [A10: "You can see them on the map, and you can make your own route"]

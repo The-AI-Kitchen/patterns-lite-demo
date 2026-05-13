@@ -1,144 +1,201 @@
-# Lens 1: Pain Points
+# Lens 1: Pain Points — Real Gig Work Transcripts
 
-Note: synthetic / example data. No real participants are represented.
+Pain points extracted in order of appearance per transcript. Severity tiers: Blocker (stops the task), Major (forces a workaround), Minor (noticed but tolerated).
 
-## p01 — CS junior
+## A1
 
-- Camino calendar dates conflict with assignment-page dates. Major. "the calendar is wrong half the time? Like the due dates on the calendar and the due dates on the assignment don't match." [p01: "the assignments page is actually pretty good but the calendar..."]
-- A wrong-date catch nearly caused a missed deadline; he no longer trusts the Camino calendar. Major. "last week the calendar said something was due Friday and the assignment page said Wednesday. I caught it because I went to start it on Thursday" [p01: "last week the calendar said something was due Friday..."]
-- A Notion setup attempt consumed two hours and was never reopened. Major. "I tried Notion last quarter and it was, I spent like two hours setting up this beautiful database and then I never opened it again." [p01: "I tried Notion last quarter and it was..."]
-- Group internal deadlines (e.g., teammate's Figma file) must be tracked manually or work won't arrive. Major. "if I waited for him to actually do it I'd never see his contribution." [p01: "my group for 129 has its own Slack and we..."]
-- A late-night Camino post was missed because email arrived during Do Not Disturb. Blocker. "I missed a Camino post because the email came in at like 11pm and I had Do Not Disturb on." [p01: "I missed a Camino post because the email came..."]
-- Daily morning check across Camino, Slack, and email takes ~15 minutes and longer when something new drops. Major. "Like fifteen minutes? Sometimes longer. If something new dropped I might lose another ten minutes" [p01: "Like fifteen minutes? Sometimes longer. If something new dropped..."]
-- The Camino iCal feed produced duplicate events that he could not resolve. Major. "I tried setting up an iCal feed for Camino, which exists, but it kept showing duplicate events and I couldn't figure out which one to delete." [p01: "I tried setting up an iCal feed for Camino,..."]
-- Using both Google Calendar and Reminders caused them to disagree, increasing checking burden. Major. "I'd put stuff in Google Calendar AND Reminders, and they'd disagree, and now I'm checking three things instead of two." [p01: "then I'd put stuff in Google Calendar AND Reminders,..."]
-- Group deadlines posted in Slack scroll out of view and must be retyped into Reminders. Major. "those deadlines live in Slack, in our group chat, which scrolls. So if I don't write them down they disappear." [p01: "And those deadlines live in Slack, in our group..."]
-- Manually translating Slack messages into Reminders is repetitive and annoying. Minor. "the information is right there in Slack. Why am I retyping it into another app." [p01: "Like, the information is right there in Slack. Why..."]
+- Frequent supervisor turnover. Major. "There's always different managers. Every two months" [A1: "There's always different managers. Every two months, or"]
+- Highly variable, low part-time hours. Major. "Sometimes I get 15, sometimes I get ten, sometimes I get 20" [A1: "Sometimes I get 15, sometimes I get ten, sometimes I get"]
+- On-call status with no growth or stability. Major. "I'm basically on call because I'm part time" [A1: "Because I'm basically on call because I'm part time."]
+- No upward mobility. Minor. "there's really no growth with moving up" [A1: "Which there's really no growth with moving up. Because"]
+- Long hours on feet in a cold facility. Major. "you have to stay on your feet for ten to 15 hours" [A1: "you have to stay on your feet for ten to 15 hours,"]
+- Personal phone is incompatible with delivery recording. Blocker. "Unfortunately, my phone is not working for me to ... Me doing delivery" [A1: "Unfortunately, my phone is not working for me to ..."]
+- Cannot afford a compatible iPhone for the job. Blocker. "I don't make enough money to get an iPhone and all that other stuff" [A1: "I don't make enough money to get an iPhone and all that"]
+- Long, expensive multi-leg commute including a $35 cab. Major. "The cab is 35 dollars" [A1: "And then from there, I take a cab. The cab is 35"]
+- Pay is too low. Major. "15 dollars is not enough money" [A1: "if something could be done for it to be a better job, like"]
+- Constant monitoring by managers. Major. "the manager's constantly walking around every five minutes, every three minutes" [A1: "Because people have stolen things. So, the manager's"]
+- Cannot talk to coworkers without risking the job. Major. "I don't talk to nobody. Because you can get fired." [A1: "I don't talk to nobody. Because you can get fired."]
+- Has to put on a performative act at work. Minor. "you have to put on that another act, another show" [A1: "Because you know when you go to work, you have to put on"]
+- Last-minute schedule notice the day before a shift. Major. "Yesterday, my friend had called me and said, 'Hey, you supposed to come in tomorrow'" [A1: "Yesterday, my friend had called me and said, \"Hey, you"]
 
-## p02 — Biology sophomore
+## A2
 
-- Phone notifications across Slack, Camino, group chat, and Snapchat were indistinguishable. Major. "every five minutes something was buzzing. Slack, Camino, group chat, Snapchat. I couldn't tell which buzz was the important one." [p02: "every five minutes something was buzzing. Slack, Camino, group..."]
-- Sunday copy of Camino deadlines into the planner takes ~20 minutes and goes stale by midweek. Major. "Every Sunday night I open Camino for all four classes, look at the next two weeks, and copy due dates into the planner. It takes like twenty minutes." [p02: "Every Sunday night I open Camino for all four..."]
-- Professors add assignments mid-week, forcing a second Camino check on Wednesday nights. Major. "professors add stuff during the week, so by Wednesday my planner is wrong. I've started checking Camino again on Wednesday nights" [p02: "professors add stuff during the week, so by Wednesday..."]
-- Missed an OChem quiz posted Thursday night because she could not check Camino after a late lab. Blocker. "Two Fridays ago I missed a quiz in OChem. The prof posted it Thursday night, I didn't check Camino Thursday because I had a lab until 9pm" [p02: "Two Fridays ago I missed a quiz in OChem."]
-- Group internal deadlines in WhatsApp are buried in message chains and must be translated to paper. Major. "People send three messages in a row and the deadline is buried in message two of three." [p02: "People send three messages in a row and the..."]
-- Camino requires clicking into each class separately; no cross-class weekly view. Major. "Make Camino show me a clean weekly view across all my classes. Right now I have to click into each class." [p02: "Make Camino show me a clean weekly view across..."]
+- No specific manager; must call generic customer service. Major. "I call customer service" [A2: "I call customer service."]
+- Customer service rep is a different person each time. Minor. "It's not the same person" [A2: "It's not the same person."]
+- Concurrent orders cause item mix-ups. Major. "your items and things can get confused sometimes" [A2: "You can, but I wouldn't advise that because your items"]
+- Cannot reliably hit 40 hours per week. Major. "sometimes you can't get the 40" [A2: "But sometimes you can't get the 40"]
+- Amazon hours are the most variable across her platforms. Major. "Yeah, just Amazon" [A2: "Yeah, just Amazon."]
+- Bad ratings result in fewer jobs. Major. "You all get as many jobs as you were going to get before" [A2: "You all get as many jobs as you were going to get before."]
+- Expects platform to get stricter on timing. Minor. "They probably get more strict on the timing and stuff like that" [A2: "They probably get more strict on the timing and stuff"]
+- Postmates jobs require competitive bidding. Major. "you are in the battle for the job" [A2: "Sometimes, yeah. For Postmates, you are in the battle"]
 
-## p03 — Business senior
+## A3
 
-- A simultaneous marketing project deadline and internship offsite caused a near-miss on both. Blocker. "I had a marketing project due the same day my internship had a Tuesday all-day offsite. I missed both deadlines, kind of." [p03: "I had a marketing project due the same day..."]
-- Camino notifications fire at random hours with no urgency signal. Major. "The notifications are a joke. I have them turned off. They come at random hours and they don't tell me if something is actually urgent." [p03: "The notifications are a joke. I have them turned..."]
-- Asana-to-Google-Calendar integration is unreliable, forcing manual entry. Major. "I pull the Asana dates into my Google Calendar manually because the integration is sketchy." [p03: "I pull the Asana dates into my Google Calendar..."]
-- One MGMT 175 professor stopped updating Camino, pushing the class to email and requiring a Gmail filter. Major. "My professor for MGMT 175 has not updated Camino since week four. The class is run through emails." [p03: "My professor for MGMT 175 has not updated Camino..."]
+- Block-based pay structure with no time or distance reimbursement. Major. "They just pay you on blocks" [A3: "No. They just pay you on blocks."]
+- Sent on long-distance routes outside her preferred area. Major. "they send me to the suburbs. That was ridiculous. For two hours" [A3: "And they send me to the suburbs. That was ridiculous."]
+- Customer support apologizes but offers no compensation. Major. "they just issued an apology and there was no time compensation" [A3: "Most of the time they just issued an apology and there"]
+- Uber Eats does not compensate for restaurant errors that require returning. Major. "if they mess up an order and you have to go back to the restaurant, you don't get paid any additional" [A3: "Uber Eats is just you get paid unless they mess up an"]
+- No real onboarding or training. Major. "They just put you right on" [A3: "They just put you right on. They give you a little"]
+- Restaurant wait times eat into earnings. Major. "it was just me sitting at McDonald's for thirty minutes on top of the drive" [A3: "and it was just me sitting at McDonald's for thirty"]
+- Uber Eats riders rarely tip. Major. "I never got tipped and I'm only make three or four dollars each trip" [A3: "because I never got tipped and I'm only make three or four"]
+- Pay per Amazon Flex block does not feel worth the time. Major. "I don't feel like the compensation is enough for me to do it" [A3: "The pay, they send you away too far, I don't feel like"]
+- Lack of stability and predictable paycheck. Major. "I need more stability and more assurances" [A3: "Well to be honest, I need some more stability and more"]
+- Feels like an employee without employee benefits. Major. "I felt like an employee but I just didn't feel like I got the employee benefits" [A3: "No, I felt like an employee but I just didn't feel like"]
 
-## p04 — English junior
+## A4
 
-- Camino is not trusted as a source of truth, so every deadline must be re-recorded on a sticky note. Major. "I open Camino to find the assignments, but I don't trust it as my source of truth." [p04: "I open Camino to find the assignments, but I..."]
-- Shifted deadlines force crossing out and rewriting stickies, sometimes onto fresh notes. Minor. "I cross out the date and write the new one. If the sticky gets too messy I rewrite it on a fresh one." [p04: "I cross out the date and write the new..."]
-- A Notion reading log was abandoned after three entries. Major. "I made a whole reading log and then I wrote in it three times. It's a graveyard." [p04: "I made a whole reading log and then I..."]
-- Camino notifications arrived at midnight and Sunday morning, ignoring human rhythm. Major. "They came at midnight, they came on Sunday morning, they didn't respect any kind of human rhythm." [p04: "They came at midnight, they came on Sunday morning,..."]
-- Peer-review schedule lives in a separate Google Doc rather than Camino. Minor. "the deadlines that matter are on the doc, not in the chat." [p04: "The peer review schedule is a Google Doc the..."]
-- No way to print a clean monthly list of deadlines. Minor. "Make it easier to print a clean list. Like, give me one page, one button, all my deadlines for the next month" [p04: "Make it easier to print a clean list."]
+- No designated manager; must call a remote customer service line. Major. "You just call in to a customer service thing. That's not necessarily in the same city" [A4: "You just call in to a customer service thing. That's"]
+- Pay varies per block based on number of deliveries packed in. Major. "It could be a block, I could make $50. I could make $30. I could make $100" [A4: "There's no hourly. It's on a per delivery type thing."]
+- Has to chase down delivery packages with Amazon Flex. Minor. "I prefer the block over chasing down a delivery of packages" [A4: "Yeah, it just depends on how I'm feeling and it also"]
+- Health decline has reduced ability to do deliveries. Major. "My health has gone down, so I don't do any deliveries" [A4: "My health has gone down, so I don't do any deliveries."]
 
-## p05 — Math sophomore
+## A5
 
-- Almost missed a Linear Algebra problem set because the submission time was 2pm instead of midnight. Major. "I had a moment two weeks ago when I forgot my Linear set was due Friday at 2pm instead of midnight and I almost missed it." [p05: "I had a moment two weeks ago when I..."]
-- PDFs on Camino load slowly. Minor. "Make the PDFs load faster. That's it." [p05: "Make the PDFs load faster. That's it."]
+- Slipped on ice during a delivery and injured shoulder for six weeks. Blocker. "I opened up the door, slipped on some ice" [A5: "during one deliver when I was out on my own, I opened up"]
+- Not told to wear snow cleats in winter. Major. "nobody had told me about [inaudible 00:05:14] snow cleats during winter" [A5: "because nobody had told me about [inaudible 00:05:14]"]
+- Constantly moved between many different areas of work. Major. "you get moved around so much every day" [A5: "There were, I could call it three chapters. I would say"]
+- Different policies across nearby buildings. Major. "There were very different policies from building to building" [A5: "There were very different policies from building to building"]
+- New shift systems isolate workers from each other. Major. "they don't see each other at all" [A5: "but the way they're are setting up new facilities is"]
+- Rabbit device blocks delivery when GPS is off. Blocker. "the device wouldn't let me do anything" [A5: "So you could be close but if the GPS is screwing up it"]
+- Drivers had to walk customers back to homes due to device GPS errors. Major. "I'd end up having to walk back to their house with them because the device wouldn't let me do anything" [A5: "sometimes customers would come way out to the street to"]
+- Sub-contractor status without official Amazon employee recognition. Major. "they still don't consider you an actual Amazon employee" [A5: "exactly what your position is, delivery associate, but"]
+- Strict NDA covering anything seen at work. Major. "do not talk about or post or discuss any business we're doing" [A5: "they essentially say do not talk about or post or discuss"]
+- Constant labor tracking and surveillance. Major. "I was fairly aware that everything I was doing was being tracked and recorded" [A5: "Did I have to record anything? I don't think constantly"]
+- Manager turnover across departments. Major. "with the dock I had, I want to say like five, six maybe" [A5: "Oh god. So they switch managers a lot and they even"]
+- Boxes damaged and items spilling out due to lack of dunnage. Major. "really small items could actually slip out of the bottom" [A5: "really small items could actually slip out of the bottom."]
+- Equipment screw-ups every few minutes on slam lines. Major. "something went wrong about every 3 or 4 minutes" [A5: "was that something went wrong about every 3 or 4 minutes,"]
+- Understaffed slam lines forced one person to handle three lines. Major. "they would staff one person for like 3 slam lines" [A5: "they would staff one person for like 3 slam lines, because"]
+- Routing system fights mid-cycle and refuses scans. Major. "You couldn't scan one to the other" [A5: "You couldn't scan one to the other or there would be"]
+- Falling behind on intercept problem-solve upgrades. Major. "I was falling behind on the upgrades because there were so God damn many of these" [A5: "So we would do these upgrades, but then I found out"]
+- Quality declining due to one-day shipping push. Major. "they were rushing people due to this one day shipping crap" [A5: "they have been more driver crashes and even some fatalities"]
+- Workers pushed past comfortable limits. Major. "they were already pushing people past the limits that they were comfortable" [A5: "They were already pushing people past the limits that"]
+- Management response to quality concerns: Amazon doesn't care. Major. "Amazon doesn't care about quality anymore" [A5: "He said, well, Amazon doesn't care about quality anymore"]
+- Tips withheld from drivers. Major. "Amazon steals tips from the drivers" [A5: "Because Amazon steals tips from the drivers [inaudible"]
 
-## p06 — Mechanical Engineering senior
+## A6
 
-- Running two parallel systems (Trello for capstone, Sheet for personal) sometimes requires double entry. Minor. "Sometimes I do double entry, like a Trello deadline that also affects my personal week, but I just live with it." [p06: "Sometimes I do double entry, like a Trello deadline..."]
-- Trello and the spreadsheet sometimes disagree about deadlines, requiring reconciliation. Major. "when Trello and the spreadsheet disagree about when something's due, and I have to figure out which one is wrong." [p06: "The bigger annoyance is when Trello and the spreadsheet..."]
-- The faculty advisor ignores Trello and requires a separate weekly status email. Major. "The faculty advisor doesn't look at Trello so we also have to send him a weekly status email which is its own task." [p06: "The faculty advisor doesn't look at Trello so we..."]
-- A subsystem review was double-booked because it was on Trello but not the spreadsheet. Blocker. "A subsystem review last month. I had it on Trello but forgot to put it in my spreadsheet. I scheduled an exam study block on top of it." [p06: "A subsystem review last month. I had it on..."]
-- A Notion attempt lasted two weeks before being abandoned. Minor. "I tried Notion. Made a beautiful page. Used it for two weeks." [p06: "I tried Notion. Made a beautiful page. Used it..."]
-- Camino notifications arrive at random times and get snoozed. Minor. "They came at random times and I'd just snooze them." [p06: "Off. They came at random times and I'd just..."]
-- No CSV export from Camino across all classes. Minor. "Let me export Camino assignments as a CSV. Like, one button, all assignments across all my classes, CSV." [p06: "Let me export Camino assignments as a CSV."]
+- Has to do training and orientation on his own time/device. Minor. "you sit, you listen, you watch a video" [A6: "Training was a breeze. Basically you sit, you listen,"]
+- Uses his own personal smartphone for scanning packages. Minor. "it's your personal smart phone or smart device" [A6: "No, it's your personal smart phone or smart device."]
 
-## p07 — Psychology junior
+## A7
 
-- Sunday Notion intake from Camino takes about half an hour per week. Minor. "Every Sunday I do an intake. I open Camino, look at the next two weeks per class, and create Notion items for anything new. It takes me about half an hour." [p07: "Every Sunday I do an intake. I open Camino,..."]
-- PI's deadlines live in Slack and email and must be hand-translated into Notion. Major. "My PI runs everything through Slack and email. I copy her deadlines into Notion under a 'Lab' tag. The translation is annoying" [p07: "My PI runs everything through Slack and email."]
-- Submitted a half draft after putting a fake "early" due date in Notion and mistaking it for the real one. Blocker. "I had a paper draft due Friday and I marked it for Wednesday in Notion because I wanted to finish early. I then somehow thought Wednesday was the real due date and submitted a half draft." [p07: "I had a paper draft due Friday and I..."]
-- Camino notifications gave no actionable info and added stress. Minor. "The notifications were not helpful, they just stressed me out without giving me actionable info." [p07: "Off. I check Camino on Sunday. The notifications were..."]
-- The Camino iCal feed is too brittle to rely on for automation. Major. "A Camino API. I'd pull everything into Notion automatically. The ical feed is too brittle." [p07: "A Camino API. I'd pull everything into Notion automatically."]
+- No accessible manager; must navigate phone automation. Major. "you got to call somebody or you got to get online" [A7: "Most of the time you had to go online or call a number"]
+- Phone automation makes it hard to reach anyone. Major. "they put you through all that stupid automation shit" [A7: "You can't get a hold of anybody because they put you"]
+- Long, unpredictable shifts (8 to 12 hours). Major. "sometimes it was eight to 12 hour days" [A7: "And sometimes it was eight to 12 hour days. And, it"]
+- Felt always alone on the job. Minor. "you're alone 24/7" [A7: "Amazon was easy. It's just boring because it's like"]
+- Mandatory overtime imposed via signed contract. Major. "you can work that overtime as long as there's reasonable combination on when they give it to you" [A7: "before you start your job, you signed their contract"]
 
-## p08 — CS senior
+## A9
 
-- A 12-hour internship take-home caused a 161 code review to be missed. Blocker. "I forgot to submit a code review for 161 because I was deep in a take-home for a Roblox internship. The take-home took me 12 hours and I just lost the day." [p08: "I forgot to submit a code review for 161..."]
-- Pulling Camino deadlines into GitHub Projects takes ~20 minutes manually each Sunday, requiring a custom scraper. Major. "I pull deadlines into GitHub Projects manually every Sunday night. Twenty minutes. I script some of it actually, I have a little Python thing that scrapes my Canvas assignments page" [p08: "I pull deadlines into GitHub Projects manually every Sunday..."]
-- Notion was too slow and lacked the needed hotkeys. Minor. "I tried Notion in like 2023. Too slow. I want hotkeys." [p08: "I tried Notion in like 2023. Too slow."]
-- Camino notifications interrupt context-switching. Minor. "Off. They're noise. I want to control when I context-switch into school mode." [p08: "Off. They're noise. I want to control when I..."]
-- No Camino-to-GitHub-Projects (or general API) integration exists. Major. "A Camino-to-GitHub-Projects integration. Or anyone-to-Camino API, really. Let me automate the intake." [p08: "A Camino-to-GitHub-Projects integration. Or anyone-to-Camino API, really."]
+- Pay was only $10/hour. Major. "it was 10 bucks an hour" [A9: "Oh yeah, it was 10 bucks an hour."]
+- Required to do driver math and writing on the scanner/clipboard. Minor. "they wanted to make sure that the person was able to do math, with the scanner" [A9: "but the ones who drove out, they wanted to make sure"]
+- Needed own transportation to be self-sufficient on the job. Major. "you want your own transportation" [A9: "Through coworkers, but you want your own transportation."]
 
-## p09 — Sociology transfer junior
+## A10
 
-- Camino's layout differs from De Anza's Canvas and she cannot find assignments reliably. Blocker. "Camino is, I'm still figuring it out. At De Anza we used Canvas which I guess is the same thing but different? It looks different. I don't know where the assignments are half the time." [p09: "I transferred from De Anza in September and Camino..."]
-- Due dates in SOCI 169 are buried in a PDF syllabus rather than on the assignments themselves. Major. "the due dates aren't on the assignments themselves, they're in the syllabus. The syllabus is a PDF. So I have to open the syllabus, scroll to the right week, find the assignment, then go back to Modules" [p09: "My SOCI 169 prof posts assignments in a tab..."]
-- Weekly self-emailed list missed three of the week's actual deadlines, including one she failed to submit. Blocker. "Last week I had three things due that I didn't have on my Sunday list. I missed one." [p09: "Last week I had three things due that I..."]
-- A Notion attempt failed at the empty-page step. Major. "I downloaded Notion because everyone says Notion. I opened it once. It's a wall of empty pages and I didn't know where to start. I closed it." [p09: "I downloaded Notion because everyone says Notion. I opened..."]
-- No transfer-student onboarding to Camino exists. Major. "I want someone to just show me how it's supposed to work here. Like, a quarter-long onboarding for transfer students. The first few weeks I was just guessing." [p09: "I want someone to just show me how it's..."]
-- Group internal milestones live in GroupMe scroll-back and must be re-found. Major. "our internal milestones are wherever someone in GroupMe last typed them. I scroll back and try to find them." [p09: "The deadline for our group paper is in the..."]
+- No phone number for support outside of an active delivery. Major. "if you have issues with the app or something else, then you have to email them. There's no contact number" [A10: "But other than that, if you have issues with the app or"]
+- Email response time can be up to two days. Major. "sometimes it's two days" [A10: "Yeah, the response time varies. Sometimes it's a couple"]
+- Cannot see delivery location before accepting the block. Major. "you don't find out where you're going until they give you your packages" [A10: "No. So when you accept the block, all you see is a"]
+- No real training, just a video that auto-checks completion. Major. "They do have videos on the app you're supposed to watch. That's the extent of it" [A10: "They do have videos on the app you're supposed to watch."]
+- 40-hour cap mysteriously throttles offered blocks. Major. "they max you out after 40 hours" [A10: "Yeah. They do max you out after 40 hours. I actually"]
+- Account deactivations happen with no explanation. Major. "they'll deactivate your account at the drop of a dime. You won't even know why" [A10: "they'll deactivate your account at the drop of a dime."]
+- No employment guarantees as an independent contractor. Minor. "there's really no guarantees of anything" [A10: "I definitely don't consider myself an employee because"]
+- Unclear which warehouse gives more or better packages. Minor. "I did get some feedback that was kind of mixed" [A10: "So I did ask that question on there, and I did get some"]
 
-## p10 — Marketing senior
+## A11
 
-- Reading Camino is slow due to dense text and inconsistent layout per class. Major. "Camino is hard to use for me. The text is dense, the layout changes from class to class. I can do it, it just takes a while." [p10: "Camino is hard to use for me."]
-- Writing deadlines down in real time during lecture causes him to lose the thread, requiring voice memos. Major. "If a prof says 'this is due next Friday' and I try to write it down in real time, I miss the next sentence." [p10: "Because I read slowly. If a prof says 'this..."]
-- Manual audio-based weekly tracking is exhausting. Major. "I'm essentially doing the deadline tracking by hand, in audio, every week. By Friday I'm done." [p10: "It works, but it's exhausting. I'm essentially doing the..."]
-- Weekly professor summaries only come from two of four professors; the others must be asked, which he hates. Major. "two professors do it. The other two, I have to ask, and asking is the part I hate. I shouldn't have to ask every quarter." [p10: "No, two professors do it. The other two, I..."]
-- Notion's blank page triggered anxiety and was abandoned. Minor. "I tried Notion. The blinking cursor and the empty page made me anxious." [p10: "I tried Notion. The blinking cursor and the empty..."]
-- No auto-summary of weekly deadlines exists in Camino. Major. "Auto-summaries from Camino. If Camino itself sent me a weekly paragraph saying 'here is what is due in your four classes this week,' that would change my life." [p10: "Auto-summaries from Camino. If Camino itself sent me a..."]
+- Hourly pay was abruptly slashed when Amazon took over payments. Blocker. "we'll be now paying at an hourly rate of like $141.75" [A11: "Amazon took over our payments and so we'll be now paying"]
+- Delivery loads were increased after the pay cut. Major. "they also increased a lot of our delivery loads" [A11: "And they also increased a lot of our delivery loads"]
+- Had to load own vans before deliveries. Minor. "We'd have to load our own vans" [A11: "We'd have to load our own vans, sorry, and then we would"]
+- Apartment leasing manager refused to accept packages. Blocker. "Absolutely not" [A11: "Absolutely not. Sir, again, I'd like to state, this"]
+- Amazon support told her to attempt delivery anyway, despite theft risk. Major. "Go ahead and attempt delivery, and if you are able to hide the packages, then you can do so" [A11: "No. Go ahead and attempt delivery, and if you are"]
+- Customer service reps lack authority and must escalate. Major. "Let me go ahead and contact my higher up" [A11: "They were like, \"Let me go ahead and contact my higher"]
+- Route system sent her far outside her assigned area. Major. "Why are you going to [town 4]?" [A11: "[Interviewee name], you're not supposed to go to"]
+- Developed sciatica and knees going out of place from the job. Blocker. "I developed sciatica as well as, what was it, [inaudible 00:11:09], so my knees would actually go out of place" [A11: "I developed sciatica as well as, what was it, [inaudible"]
+- Doubled routes when coworkers quit. Major. "they had to give us two routes" [A11: "Yeah, because we lost a good chunk of our workers, they"]
+- No insurance offered to subcontractor part-time couriers. Major. "they didn't have a lot of insurance offers for us because we were of another company" [A11: "and they didn't really have a lot of insurance options"]
+- Pressured to work consecutive days off. Major. "you've had me work back to back to back for like a good couple of weeks at a time" [A11: "This is my day off, you've had me work back to back"]
+- Rabbit server outage forced phone-photo workaround for three days. Major. "These rabbits [inaudible 00:14:41] servers, and everyone had to download the app onto their phone" [A11: "These rabbits [inaudible 00:14:41] servers, and everyone"]
+- Phone workaround ate data and battery, risked dropping device. Major. "it used a lot of battery power, so you couldn't really take it in and out of the car" [A11: "The problem with it was it used a lot of battery power,"]
+- $155 deducted from paycheck for each broken rabbit device. Major. "they would dock $155 from your paycheck" [A11: "If you drop one of those things and you broke them, they"]
+- Parking tickets eventually became the driver's responsibility. Major. "if you get a ticket, you're paying for it" [A11: "Yeah, no, if you get a ticket, you're paying for it."]
+- Forced to hand out personal phone number to customers. Major. "Nine times out of 10 they would have us give them our phone number" [A11: "Nine times out of 10 they would have us give them our"]
+- Customers calling angry about packages. Major. "I had one of the receivers call me in a huff" [A11: "Luckily, there was only one incident where I had one"]
+- GPS would fail to register the correct delivery area. Major. "sometimes the frickin device would, even if you're there, would be like, 'You're not in the spot, you're not there'" [A11: "and sometimes the frickin device would, even if you're"]
+- Customers not flagging hazards (kids, dogs) caused confrontations. Major. "they did not tell me that their daughter was sick, they were home alone, and they had a dog" [A11: "They did not tell me that their daughter was sick, they"]
+- Manager turnover and informal dispatch rotation. Minor. "if you're not going to deliver, you be the dispatch this day or this day" [A11: "Or they'd also have one of our drivers be like, \"Okay,"]
+- No new contract issued when employer transitioned to Amazon. Minor. "Surprisingly, no" [A11: "Surprisingly, no. Which is the weird thing. I was"]
 
 ---
 
-## Cross-references (pain points in two or more transcripts)
+## Cross-references (pain points appearing in two or more transcripts)
 
-- Notion was tried and abandoned.
-  - [p01: "I tried Notion last quarter and it was..."]
-  - [p04: "I made a whole reading log and then I..."]
-  - [p06: "I tried Notion. Made a beautiful page. Used it..."]
-  - [p08: "I tried Notion in like 2023. Too slow."]
-  - [p09: "I downloaded Notion because everyone says Notion. I opened..."]
-  - [p10: "I tried Notion. The blinking cursor and the empty..."]
-- Camino notifications are unhelpful and turned off or ignored.
-  - [p01: "I missed a Camino post because the email came..."]
-  - [p03: "The notifications are a joke. I have them turned..."]
-  - [p04: "They came at midnight, they came on Sunday morning,..."]
-  - [p06: "Off. They came at random times and I'd just..."]
-  - [p07: "Off. I check Camino on Sunday. The notifications were..."]
-  - [p08: "Off. They're noise. I want to control when I..."]
-- Camino is not trusted as a source of truth; participants build an external system.
-  - [p01: "the assignments page is actually pretty good but the calendar..."]
-  - [p04: "I open Camino to find the assignments, but I..."]
-  - [p06: "I don't trust Camino as my source. I trust..."]
-- Group/internal deadlines live in chat (Slack, WhatsApp, GroupMe, iMessage) and must be manually translated.
-  - [p01: "And those deadlines live in Slack, in our group..."]
-  - [p02: "People send three messages in a row and the..."]
-  - [p07: "My PI runs everything through Slack and email."]
-  - [p09: "The deadline for our group paper is in the..."]
-- Weekly Camino-to-personal-system intake takes substantial time (~20–30 minutes).
-  - [p02: "Every Sunday night I open Camino for all four..."]
-  - [p07: "Every Sunday I do an intake. I open Camino,..."]
-  - [p08: "I pull deadlines into GitHub Projects manually every Sunday..."]
-- A specific deadline was missed or nearly missed.
-  - [p01: "I missed a Camino post because the email came..."]
-  - [p02: "Two Fridays ago I missed a quiz in OChem."]
-  - [p03: "I had a marketing project due the same day..."]
-  - [p05: "I had a moment two weeks ago when I..."]
-  - [p06: "A subsystem review last month. I had it on..."]
-  - [p07: "I had a paper draft due Friday and I..."]
-  - [p08: "I forgot to submit a code review for 161..."]
-  - [p09: "Last week I had three things due that I..."]
-- Camino-to-personal-tool sync is missing or broken (iCal/API/CSV).
-  - [p01: "I tried setting up an iCal feed for Camino,..."]
-  - [p06: "Let me export Camino assignments as a CSV."]
-  - [p07: "A Camino API. I'd pull everything into Notion automatically."]
-  - [p08: "A Camino-to-GitHub-Projects integration. Or anyone-to-Camino API, really."]
-- No cross-class weekly view in Camino; users must click into each class.
-  - [p02: "Make Camino show me a clean weekly view across..."]
-  - [p06: "Because I can see the whole week at once...."]
-- Professors use Camino inconsistently or bypass it.
-  - [p01: "the assignments page is actually pretty good but the calendar..."]
-  - [p03: "My professor for MGMT 175 has not updated Camino..."]
-  - [p09: "My SOCI 169 prof posts assignments in a tab..."]
-  - [p10: "No, two professors do it. The other two, I..."]
+- No accessible human manager; routed to remote customer service or automated systems.
+  - [A2: "I call customer service."]
+  - [A4: "You just call in to a customer service thing. That's"]
+  - [A7: "Most of the time you had to go online or call a number"]
+  - [A10: "But other than that, if you have issues with the app or"]
+  - [A11: "They were like, \"Let me go ahead and contact my higher"]
+
+- Pay variability or low pay.
+  - [A1: "if something could be done for it to be a better job, like"]
+  - [A2: "But sometimes you can't get the 40"]
+  - [A3: "The pay, they send you away too far, I don't feel like"]
+  - [A9: "Oh yeah, it was 10 bucks an hour."]
+  - [A11: "Amazon took over our payments and so we'll be now paying"]
+
+- Hours fluctuate week to week and are unpredictable.
+  - [A1: "Sometimes I get 15, sometimes I get ten, sometimes I get"]
+  - [A2: "Yeah, just Amazon."]
+  - [A7: "And sometimes it was eight to 12 hour days. And, it"]
+
+- Long-distance or out-of-area routing sent against driver preference.
+  - [A3: "And they send me to the suburbs. That was ridiculous."]
+  - [A11: "[Interviewee name], you're not supposed to go to"]
+
+- No real onboarding; training reduced to videos.
+  - [A2: "You can, but I wouldn't advise that because your items"]
+  - [A3: "They just put you right on. They give you a little"]
+  - [A6: "Training was a breeze. Basically you sit, you listen,"]
+  - [A10: "They do have videos on the app you're supposed to watch."]
+
+- Surveillance and tracking embedded in the job.
+  - [A1: "Because people have stolen things. So, the manager's"]
+  - [A5: "Did I have to record anything? I don't think constantly"]
+
+- Physical strain or injury from the job.
+  - [A1: "you have to stay on your feet for ten to 15 hours,"]
+  - [A4: "My health has gone down, so I don't do any deliveries."]
+  - [A5: "during one deliver when I was out on my own, I opened up"]
+  - [A11: "I developed sciatica as well as, what was it, [inaudible"]
+
+- GPS/scanner device blocks or misreads delivery location.
+  - [A5: "So you could be close but if the GPS is screwing up it"]
+  - [A11: "and sometimes the frickin device would, even if you're"]
+
+- Worker uses or must rely on personal phone/data for the job.
+  - [A1: "Unfortunately, my phone is not working for me to ..."]
+  - [A6: "No, it's your personal smart phone or smart device."]
+  - [A11: "The problem with it was it used a lot of battery power,"]
+
+- Identity mismatch: feels like employee without employee status or benefits.
+  - [A3: "No, I felt like an employee but I just didn't feel like"]
+  - [A5: "exactly what your position is, delivery associate, but"]
+  - [A10: "I definitely don't consider myself an employee because"]
+  - [A11: "and they didn't really have a lot of insurance options"]
+
+- Mandatory or pressured overtime and weekend work.
+  - [A7: "before you start your job, you signed their contract"]
+  - [A11: "This is my day off, you've had me work back to back"]
+
+- Apartment/multi-unit delivery friction (theft, access, hiding packages).
+  - [A3: "Well sometimes if it was undelivered and I couldn't get into the building they would want me to take a picture of where I would leave the packages"]
+  - [A11: "Absolutely not. Sir, again, I'd like to state, this"]
+
+- Punitive metrics that reduce work or remove access.
+  - [A2: "You all get as many jobs as you were going to get before."]
+  - [A10: "they'll deactivate your account at the drop of a dime."]
+
+- Quality and safety eroded by speed/volume pressure.
+  - [A5: "they have been more driver crashes and even some fatalities"]
+  - [A11: "And they also increased a lot of our delivery loads"]

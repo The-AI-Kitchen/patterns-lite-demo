@@ -6,7 +6,7 @@ This is the local analog of Anthropic's Citations API. We cannot enforce citatio
 
 ## Inputs
 
-- Lens output files in `@outputs/`:
+- Lens output files in the run's output folder. The folder name (`@outputs_claude/`, `@outputs_cursor/`, or another `@outputs_<tool>/`) is fixed by the kickoff prompt. Read and write inside whichever folder the kickoff names; do not use a generic `@outputs/` path. The three lens files are:
   - `01-pain-points.md`
   - `02-emotional-language.md`
   - `03-causal-chains.md`
@@ -28,7 +28,7 @@ For every citation in each lens output file:
 
 ## Output format
 
-Write to `@outputs/verification.md`. Use this structure:
+Write to `verification.md` inside the run's output folder (the same folder the lens files are in). Use this structure:
 
 ```
 # Verification Report

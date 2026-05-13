@@ -1,204 +1,113 @@
 # Lens 3: Causal Chains
 
-Trigger → action → result sequences explicitly linked by participants. Verbatim citations only.
+Source transcripts: `transcripts/p01-cs-junior.md` through `p10-marketing-senior.md`.
 
 ---
 
-## p01 — CS junior
+## p01-cs-junior.md (p01)
 
-### Chain 1: Camino calendar mismatch → distrust → switch source within Camino
-- Type: Switching (within-tool source switch)
-- Trigger: Calendar said Friday, assignment page said Wednesday; caught it on Thursday
-- Action: Stopped trusting the calendar view
-- Result: Now uses the assignment list as the source of truth
-- Quote: [p01: "Yeah, last week the calendar said something was due Friday..."]
+**Chain:** Calendar disagreed with assignment page → stopped trusting calendar → uses assignment list instead. **Type:** Workaround. **Quote:** "So I don't trust the calendar at all anymore. I use the assignment list." `[p01: "So I don't trust the calendar at all anymore."]`
 
-### Chain 2: Notion setup investment → never reopened → abandonment for Reminders
-- Type: Abandonment / Switching
-- Trigger: Spent two hours setting up a "beautiful database" in Notion
-- Action: Never opened it again
-- Result: Defaulted to Apple Reminders because "I open it"
-- Quote: [p01: "I tried Notion last quarter and it was, I spent like..."]
+**Chain:** Notion took hours to set up → never reopened → switched to Reminders. **Type:** Abandonment. **Quote:** "I spent like two hours setting up this beautiful database and then I never opened it again. Reminders is dumb but I open it." `[p01: "I spent like two hours setting up this beautiful"]`
 
-### Chain 3: Late-night Camino email + Do Not Disturb → missed post → morning Camino check habit
-- Type: Habit formation
-- Trigger: Email arrived 11pm with DND on; phone dark; missed a Camino post; professor referenced it in lecture
-- Action: Stopped trusting email notifications
-- Result: Now checks Camino itself every morning before class
-- Quote: [p01: "Two weeks ago. Or three? I missed a Camino post..."]
+**Chain:** Missed late-night Camino email due to DND → prof referenced post in lecture → now checks Camino directly each morning. **Type:** Habit formation. **Quote:** "So now I check Camino itself every morning before class. I don't trust email notifications." `[p01: "So now I check Camino itself every morning before"]`
 
-### Chain 4: iCal feed duplicates → can't resolve → abandonment
-- Type: Abandonment
-- Trigger: Tried setting up an iCal feed for Camino
-- Action: Feed showed duplicate events; couldn't figure out which to delete
-- Result: Gave up on the iCal feed
-- Quote: [p01: "I tried setting up an iCal feed for Camino, which exists..."]
+**Chain:** iCal showed duplicates; Google Calendar and Reminders disagreed → reverted to Reminders only. **Type:** Abandonment. **Quote:** "So I went back to just Reminders." `[p01: "So I went back to just Reminders."]`
 
-### Chain 5: Dual entry in Google Calendar + Reminders → disagreement → revert to Reminders only
-- Type: Abandonment / Switching back
-- Trigger: Tried using Google Calendar more alongside Reminders
-- Action: Same items entered in both apps; the two disagreed
-- Result: Went back to just Reminders to stop checking three things
-- Quote: [p01: "I tried using my Google Calendar more, but then..."]
-
-### Chain 6: Slack deadlines scroll away → manual translation into Reminders
-- Type: Workaround
-- Trigger: Group's internal deadlines live in a Slack chat that scrolls
-- Action: Manually retypes each Slack deadline into Reminders
-- Result: Deadlines stay visible; without translation "I forget"
-- Quote: [p01: "Yeah so for 129 we have five people..."]
+**Chain:** Slack deadlines scroll away → must write them in Reminders manually or risk forgetting. **Type:** Workaround. **Quote:** "So if I don't write them down they disappear. That's where Reminders helps." `[p01: "So if I don't write them down they disappear."]`
 
 ---
 
-## p02 — Biology sophomore
+## p02-bio-sophomore.md (p02)
 
-### Chain 1: Phone notification overload → confusion about what's important → drop phone for school tracking
-- Type: Abandonment / Switching (digital → paper)
-- Trigger: Constant buzzing from Slack, Camino, group chat, Snapchat; couldn't tell which buzz mattered
-- Action: Stopped relying on the phone for school
-- Result: Phone is now "just texts and music"; paper planner takes over
-- Quote: [p02: "I used my phone before and the notifications stressed me..."]
+**Chain:** Phone buzzed constantly from many apps → stopped using phone for school → paper planner. **Type:** Switching. **Quote:** "So I stopped relying on the phone for school and now my phone is just texts and music." `[p02: "So I stopped relying on the phone for school and"]`
 
-### Chain 2: Professors add items mid-week → Sunday-copy planner becomes stale → added Wednesday check
-- Type: Workaround / Habit formation
-- Trigger: Sunday-night Camino copy is wrong by Wednesday because profs add things during the week
-- Action: Started checking Camino again on Wednesday nights
-- Result: Catches new mid-week items in the planner
-- Quote: [p02: "Every Sunday night I open Camino for all four..."]
+**Chain:** Sunday Camino review copies two weeks → mid-week prof adds → Wednesday night recheck habit. **Type:** Habit formation / workaround. **Quote:** "I've started checking Camino again on Wednesday nights to catch the new stuff." `[p02: "I've started checking Camino again on Wednesday nights"]`
 
-### Chain 3: Late lab + crash → skipped Thursday Camino check → missed OChem quiz
-- Type: Coping aftermath (single-event chain)
-- Trigger: Lab ran until 9pm; crashed after getting home; didn't check Camino Thursday
-- Action: Missed the quiz posted Thursday night
-- Result: Had to email the prof for a make-up
-- Quote: [p02: "Two Fridays ago I missed a quiz in OChem..."]
-
-### Chain 4: Phone-based Google Calendar → ignored among other phone noise → switch to paper
-- Type: Switching
-- Trigger: Put due dates in Google Calendar last year; saw them on phone alongside everything else
-- Action: Ignored the calendar entries
-- Result: Paper planner works "because I have to physically open it"
-- Quote: [p02: "I tried Google Calendar last year. I'd put due..."]
+**Chain:** Late lab Thursday → no Camino check → missed Thursday-night quiz post → discovered in lecture Friday. **Type:** Abandonment of check (unintended). **Quote:** "I didn't check Camino Thursday because I had a lab until 9pm and I just crashed when I got home." `[p02: "I didn't check Camino Thursday because I had a"]`
 
 ---
 
-## p03 — Business senior
+## p03-business-senior.md (p03)
 
-### Chain 1: Double miss (marketing project + work offsite) → built two-day buffer system
-- Type: Habit formation
-- Trigger: Marketing project due same day as internship's all-day offsite; missed both; sick all week
-- Action: Built a buffer system after that incident
-- Result: Now logs every Camino due date in Calendar two days early
-- Quote: [p03: "Last spring I had a marketing project due the same..."]
+**Chain:** Marketing project same day as internship offsite → missed both → built two-day buffer rule in Calendar. **Type:** Habit formation. **Quote:** "After that I built the buffer system." `[p03: "After that I built the buffer system."]`
 
-### Chain 2: Camino notifications unreliable → turned off → Friday planning hour extraction
-- Type: Workaround / Habit formation
-- Trigger: Camino notifications come at random hours and don't signal urgency
-- Action: Turned notifications off; extracts dates manually in a Friday planning hour
-- Result: Camino is treated as a source, not a system to live in
-- Quote: [p03: "Camino is a source. I extract from it. I don't..."]
+**Chain:** Distrusts Camino notifications → turns them off → treats Calendar as system of record. **Type:** Coping / switching. **Quote:** "I have them turned off. They come at random hours and they don't tell me if something is actually urgent." `[p03: "I have them turned off. They come at random hours"]`
 
-### Chain 3: Asana ↔ Calendar integration "sketchy" → manual copy
-- Type: Workaround
-- Trigger: Asana-to-Google-Calendar integration unreliable
-- Action: Pulls Asana dates into Google Calendar manually
-- Result: Calendar remains the single trusted view
-- Quote: [p03: "My MGMT 175 group uses Asana. We adopted it because..."]
-
-### Chain 4: Prof stopped updating Camino → built Gmail filter
-- Type: Workaround
-- Trigger: MGMT 175 professor has not updated Camino since week four; class is run by email
-- Action: Built a Gmail filter that flags anything from her
-- Result: Doesn't lose assignments buried in email
-- Quote: [p03: "My professor for MGMT 175 has not updated Camino..."]
+**Chain:** Asana integration unreliable → manually pulls Asana dates into Google Calendar. **Type:** Workaround. **Quote:** "I pull the Asana dates into my Google Calendar manually because the integration is sketchy." `[p03: "I pull the Asana dates into my Google Calendar"]`
 
 ---
 
-## p04 — English junior
+## p04-english-junior.md (p04)
 
-### Chain 1: Deadline shifts → cross-out → sticky rewrite ritual
-- Type: Workaround
-- Trigger: A deadline changes
-- Action: Crosses out the date and writes the new one; if the sticky gets messy, rewrites on a fresh sticky
-- Result: Wall remains in due-date order; "gone through a lot of stickies this quarter"
-- Quote: [p04: "I cross out the date and write the new one..."]
+**Chain:** Sees deadline in Camino → writes sticky ordered on wall → sticky becomes truth. **Type:** Workaround. **Quote:** "Once I see a deadline I write it on a sticky and the sticky is the truth." `[p04: "Once I see a deadline I write it on a sticky"]`
 
-### Chain 2: Notion organization overhead → wrote three times → graveyard
-- Type: Abandonment
-- Trigger: Notion "asks me to think about how to organize"
-- Action: Made a reading log; wrote in it three times
-- Result: Abandoned; "It's a graveyard"
-- Quote: [p04: "Notion. Of course Notion. Everyone tries Notion..."]
+**Chain:** Notion demanded organizational design → little use → wall preferred. **Type:** Abandonment. **Quote:** "The problem with Notion is it asks me to think about how to organize. The wall doesn't ask." `[p04: "The problem with Notion is it asks me to think"]`
 
-### Chain 3: Off-hours Camino notifications → turned off → self-paced manual checks
-- Type: Abandonment (of notifications) / Workaround
-- Trigger: Notifications arrived at midnight and Sunday morning, "didn't respect any kind of human rhythm"
-- Action: Turned Camino notifications off
-- Result: Checks Camino manually "when I'm ready"
-- Quote: [p04: "I have them off. They came at midnight, they came..."]
-
-### Chain 4: Workshop deadlines live in a Google Doc, not Discord → sticky transcription
-- Type: Workaround
-- Trigger: Peer review dates are in a prof's Google Doc; Discord chat is separate
-- Action: Copies the date onto a sticky like everything else
-- Result: Wall remains the single trusted view, even for group-class items
-- Quote: [p04: "I'm in a workshop class which has peer reviews due..."]
+**Chain:** Notifications at bad times → turned off → self-scheduled Camino checks. **Type:** Coping. **Quote:** "I'd rather check Camino myself when I'm ready." `[p04: "I'd rather check Camino myself when I'm ready."]`
 
 ---
 
-## p05 — Math sophomore
+## p05-math-sophomore.md (p05)
 
-### Chain 1: Same-day-every-week problem sets → fixed weekly pattern → "nothing to track"
-- Type: Habit formation
-- Trigger: Three classes have problem sets due the same weekday every week
-- Action: Wed = Real, Thu = Linear, Thu night / Fri morning = Discrete
-- Result: Routine replaces tracking; "It's the same pattern every week"
-- Quote: [p05: "My three classes have problem sets due on the same..."]
+**Chain:** Nearly missed Linear due to 2pm vs midnight assumption → now checks submission time Thursday nights. **Type:** Habit formation. **Quote:** "I now check Linear submission time on Thursday nights just in case." `[p05: "I now check Linear submission time on Thursday nights"]`
 
-### Chain 2: Unusual one-off assignment → write it on the back of the hand
-- Type: Workaround
-- Trigger: A prof adds something off the syllabus
-- Action: Writes it literally on the back of his hand
-- Result: Doesn't lose the one-off item
-- Quote: [p05: "Exams are on the syllabus. I look at the syllabus..."]
-
-### Chain 3: Near-miss on Linear submission time (2pm vs midnight) → Thursday-night time check habit
-- Type: Habit formation
-- Trigger: Forgot Linear set was due Friday 2pm, not midnight; almost missed it; scary for ten minutes
-- Action: Started checking Linear submission time on Thursday nights
-- Result: Adds one targeted check to the otherwise-memorized routine
-- Quote: [p05: "No, mostly not. I had a moment two weeks ago..."]
+**Chain:** Weekly problem set rhythm is fixed → claims little explicit tracking needed. **Type:** Habit formation. **Quote:** "It's the same pattern every week. There's nothing to track." `[p05: "It's the same pattern every week. There's nothing"]`
 
 ---
 
-## Recurring cross-transcript chain patterns
+## p06-mech-eng-senior.md (p06)
 
-- Notion setup overhead → abandonment. Time invested in configuration with no follow-through.
-  - [p01: "I tried Notion last quarter and it was, I spent like..."]
-  - [p04: "Notion. Of course Notion. Everyone tries Notion..."]
+**Chain:** Trello item missing from spreadsheet → double-booked study → Sunday cross-check habit. **Type:** Habit formation. **Quote:** "Now I do a Sunday cross-check between Trello and the sheet." `[p06: "Now I do a Sunday cross-check between Trello and"]`
 
-- Camino notifications distrusted → turned off or ignored → self-paced manual checks substituted.
-  - [p01: "Two weeks ago. Or three? I missed a Camino post..."]
-  - [p03: "Camino is a source. I extract from it. I don't..."]
-  - [p04: "I have them off. They came at midnight, they came..."]
+**Chain:** Built spreadsheet sophomore year → trusts sheet over Camino. **Type:** Habit formation. **Quote:** "I don't trust Camino as my source. I trust the sheet." `[p06: "I don't trust Camino as my source. I trust the"]`
 
-- Phone-based digital calendar tried → lost among other phone noise / duplicate entries → reverted to a single trusted store (paper, Reminders, or one calendar).
-  - [p01: "I tried using my Google Calendar more, but then..."]
-  - [p02: "I tried Google Calendar last year. I'd put due..."]
+**Chain:** Notion felt like rebuilding system each quarter → abandoned after two weeks. **Type:** Abandonment. **Quote:** "Used it for two weeks. The thing is, Notion is for thinking about your system, and my system is already built." `[p06: "Used it for two weeks. The thing is, Notion is"]`
 
-- Group-chat deadlines (Slack / WhatsApp / Discord) scroll away → manual translation into the personal system.
-  - [p01: "Yeah so for 129 we have five people..."]
-  - [p02: "For my Bio 161 group we have a WhatsApp..."]
-  - [p04: "I'm in a workshop class which has peer reviews due..."]
+---
 
-- A single painful near-miss or miss → new recurring check or buffer added to the routine.
-  - [p01: "Two weeks ago. Or three? I missed a Camino post..."]
-  - [p02: "Every Sunday night I open Camino for all four..."]
-  - [p03: "Last spring I had a marketing project due the same..."]
-  - [p05: "No, mostly not. I had a moment two weeks ago..."]
+## p07-psych-junior.md (p07)
 
-- Camino as source, not system. Participants extract from Camino into their own preferred surface (Reminders, planner, Calendar, stickies) rather than living in it.
-  - [p01: "Okay so I wake up, I look at Reminders..."]
-  - [p02: "Every Sunday night I open Camino for all four..."]
-  - [p03: "Camino is a source. I extract from it. I don't..."]
-  - [p04: "I open Camino to find the assignments, but I don't..."]
+**Chain:** Tried Reminders, paper planner, Calendar → Notion database flexibility "unlocked" long-term use. **Type:** Switching. **Quote:** "The thing about Notion that worked is the database." `[p07: "The thing about Notion that worked is the database."]`
+
+**Chain:** Set artificial Wednesday deadline in Notion → confused it with real Friday due → submitted half draft early by mistake. **Type:** Workaround backfiring. **Quote:** "Lesson: don't lie to your own system." `[p07: "Lesson: don't lie to your own system."]`
+
+**Chain:** Sunday Camino intake → creates Notion items → doubles as planning time. **Type:** Habit formation. **Quote:** "the manual step is also when I plan, so it's not wasted time." `[p07: "the manual step is also when I plan, so it's"]`
+
+---
+
+## p08-cs-senior.md (p08)
+
+**Chain:** Take-home absorbed a day → missed code review → adopted GitHub Projects with weekly self-standup. **Type:** Habit formation. **Quote:** "After that I started GitHub Projects." `[p08: "After that I started GitHub Projects."]`
+
+**Chain:** Writes Python scraper for Canvas assignments → markdown list to feed workflow. **Type:** Workaround. **Quote:** "I have a little Python thing that scrapes my Canvas assignments page and outputs a markdown list." `[p08: "I have a little Python thing that scrapes my Canvas"]`
+
+**Chain:** Notion too slow for desired velocity → GitHub Projects for hotkeys. **Type:** Switching. **Quote:** "I tried Notion in like 2023. Too slow. I want hotkeys." `[p08: "I tried Notion in like 2023. Too slow. I want"]`
+
+---
+
+## p09-soc-transfer.md (p09)
+
+**Chain:** Unfamiliar Camino layout → relies on weekly self-email → list incomplete → missed assignment. **Type:** Coping (fragile). **Quote:** "Last week I had three things due that I didn't have on my Sunday list. I missed one." `[p09: "Last week I had three things due that I didn't"]`
+
+**Chain:** Due dates only in syllabus PDF while submission in Modules → repeated multi-step lookup each assignment. **Type:** Workaround. **Quote:** "So I have to open the syllabus, scroll to the right week, find the assignment, then go back to Modules to actually submit." `[p09: "So I have to open the syllabus, scroll to the right"]`
+
+---
+
+## p10-marketing-senior.md (p10)
+
+**Chain:** Slow reading in real time → records voice memos in class → replays later → enters deadlines in Reminders. **Type:** Workaround. **Quote:** "I record a voice memo every time a prof says something important in class. Then later that day I listen back and put the deadlines into Reminders." `[p10: "I record a voice memo every time a prof says something"]`
+
+**Chain:** Dense Camino → relies on in-class hearing + accommodations summaries for two courses. **Type:** Coping. **Quote:** "So I rely on my own ear in class more than Camino." `[p10: "So I rely on my own ear in class more than"]`
+
+---
+
+## Recurring chain patterns (2+ transcripts)
+
+1. **Bad or noisy Camino notifications → turned off → scheduled manual Camino checks** — `[p04: "I'd rather check Camino myself when I'm ready."]` (p04-english-junior.md); `[p07: "Off. I check Camino on Sunday."]` (p07-psych-junior.md); `[p08: "Off. They're noise."]` (p08-cs-senior.md); `[p06: "Off. They came at random times and I'd just snooze"]` (p06-mech-eng-senior.md)
+
+2. **Notion tried → rejected (too heavy, slow, or empty)** — `[p01: "I spent like two hours setting up this beautiful"]` (p01-cs-junior.md); `[p04: "The problem with Notion is it asks me to think"]` (p04-english-junior.md); `[p06: "Used it for two weeks. The thing is, Notion is"]` (p06-mech-eng-senior.md); `[p08: "I tried Notion in like 2023. Too slow. I want"]` (p08-cs-senior.md)
+
+3. **Personal system trusted over Camino; Camino as periodic extract** — `[p06: "I don't trust Camino as my source. I trust the"]` (p06-mech-eng-senior.md); `[p03: "Camino is a source. I extract from it."]` (p03-business-senior.md); `[p08: "I pull deadlines into GitHub Projects manually every"]` (p08-cs-senior.md)
+
+4. **Failure or near-miss → new habit (extra check day, buffer, cross-check)** — `[p02: "I've started checking Camino again on Wednesday nights"]` (p02-bio-sophomore.md); `[p03: "After that I built the buffer system."]` (p03-business-senior.md); `[p06: "Now I do a Sunday cross-check between Trello and"]` (p06-mech-eng-senior.md); `[p05: "I now check Linear submission time on Thursday nights"]` (p05-math-sophomore.md)

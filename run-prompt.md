@@ -1,6 +1,12 @@
 # Run prompts for Patterns Lite
 
-The materials (transcripts, lens prompts, synthesis prompt) are tool-agnostic. Only the kickoff prompt syntax differs between Claude Code and Cursor. Both should produce comparable subagent runs and output files.
+The materials (transcripts, lens prompts, verification prompt, synthesis prompt) are tool-agnostic. Only the kickoff prompt syntax differs between Claude Code and Cursor.
+
+**Each model writes to its own output folder so runs can be compared side-by-side without overwriting each other:**
+
+- Claude Code runs write to `outputs_claude/`.
+- Cursor runs write to `outputs_cursor/`.
+- If you add a third tool, pick a third folder name (`outputs_<tool>/`) and adapt the kickoff prompt the same way.
 
 ---
 
@@ -9,13 +15,15 @@ The materials (transcripts, lens prompts, synthesis prompt) are tool-agnostic. O
 Sign in with your Pro or Max account. Open this folder. Paste the prompt below.
 
 ```
-Use the Task tool to spawn three subagents in parallel. Each subagent should read all three transcripts in @transcripts/ and apply exactly one lens prompt:
+Use the Task tool to spawn three subagents in parallel. All outputs from this run go to @outputs_claude/ so they don't collide with runs from other models. Each subagent reads all transcripts in @transcripts/ and applies exactly one lens prompt:
 
-- Subagent 1: apply @prompts/01-pain-points.md. Write output to @outputs/01-pain-points.md.
-- Subagent 2: apply @prompts/02-emotional-language.md. Write output to @outputs/02-emotional-language.md.
-- Subagent 3: apply @prompts/03-causal-chains.md. Write output to @outputs/03-causal-chains.md.
+- Subagent 1: apply @prompts/01-pain-points.md. Write output to @outputs_claude/01-pain-points.md.
+- Subagent 2: apply @prompts/02-emotional-language.md. Write output to @outputs_claude/02-emotional-language.md.
+- Subagent 3: apply @prompts/03-causal-chains.md. Write output to @outputs_claude/03-causal-chains.md.
 
-After all three subagents finish, read all three output files and apply @prompts/synthesis.md. Write the synthesis to @outputs/04-synthesis.md.
+After all three subagents finish, spawn a verifier subagent. It applies @prompts/verification.md, reads the three lens files in @outputs_claude/, grounds every citation against the source transcripts, and writes the verification report to @outputs_claude/verification.md.
+
+After the verifier finishes, apply @prompts/synthesis.md. Read all four files in @outputs_claude/ (the three lens outputs plus verification.md). Write the synthesis to @outputs_claude/04-synthesis.md.
 
 Each lens has a specific job. Keep direct quotes with the transcript filename whenever an output references something a participant said. Do not summarize the transcripts.
 ```
@@ -29,13 +37,15 @@ Open this folder in Cursor. Open the Agent panel (Cmd+I). Make sure you are on a
 ```
 /multitask
 
-Spawn three parallel subagents. Each one should read all three transcripts in @transcripts/ and apply exactly one lens prompt:
+Spawn three parallel subagents. All outputs from this run go to @outputs_cursor/ so they don't collide with runs from other models. Each subagent reads all transcripts in @transcripts/ and applies exactly one lens prompt:
 
-- Subagent 1: apply @prompts/01-pain-points.md. Write output to @outputs/01-pain-points.md.
-- Subagent 2: apply @prompts/02-emotional-language.md. Write output to @outputs/02-emotional-language.md.
-- Subagent 3: apply @prompts/03-causal-chains.md. Write output to @outputs/03-causal-chains.md.
+- Subagent 1: apply @prompts/01-pain-points.md. Write output to @outputs_cursor/01-pain-points.md.
+- Subagent 2: apply @prompts/02-emotional-language.md. Write output to @outputs_cursor/02-emotional-language.md.
+- Subagent 3: apply @prompts/03-causal-chains.md. Write output to @outputs_cursor/03-causal-chains.md.
 
-After all three subagents finish, read all three output files and apply @prompts/synthesis.md. Write the synthesis to @outputs/04-synthesis.md.
+After all three subagents finish, spawn a verifier subagent. It applies @prompts/verification.md, reads the three lens files in @outputs_cursor/, grounds every citation against the source transcripts, and writes the verification report to @outputs_cursor/verification.md.
+
+After the verifier finishes, apply @prompts/synthesis.md. Read all four files in @outputs_cursor/ (the three lens outputs plus verification.md). Write the synthesis to @outputs_cursor/04-synthesis.md.
 
 Each lens has a specific job. Keep direct quotes with the transcript filename whenever an output references something a participant said. Do not summarize the transcripts.
 ```

@@ -41,8 +41,11 @@ patterns-lite-demo/
 │   ├── 03-causal-chains.md    (lens 3)
 │   ├── verification.md        (grounding pass)
 │   └── synthesis.md           (cross-lens synthesis, gated by verifier)
-└── outputs/                   (subagent outputs land here)
+├── outputs_claude/            (subagent outputs from Claude Code runs)
+└── outputs_cursor/            (subagent outputs from Cursor runs)
 ```
+
+Each model writes to its own `outputs_<tool>/` folder. Runs do not overwrite each other. If you add a third tool, pick a third folder name and adapt the kickoff prompt in `run-prompt.md` the same way.
 
 ## Data note
 
@@ -72,13 +75,15 @@ This is the smallest mechanism that demonstrates the principle. Real Patterns us
 
 ## How to run
 
+Each run writes to a model-specific output folder so Claude Code and Cursor outputs sit alongside each other and can be compared directly. Claude Code runs go to `outputs_claude/`, Cursor runs go to `outputs_cursor/`. The placeholder `outputs_<tool>/` below stands for whichever folder applies to the current run.
+
 The run has three top-level steps. The agent must perform all three, in order. Verification is its own step, not a side effect of synthesis.
 
-1. **Lens pass.** Spawn three parallel subagents, one per lens prompt: `prompts/01-pain-points.md`, `prompts/02-emotional-language.md`, `prompts/03-causal-chains.md`. Each writes to the matching file in `outputs/`.
-2. **Verification pass.** After all three lens outputs exist, run `prompts/verification.md` as its own subagent. It grounds every citation against the source transcripts and writes `outputs/verification.md`. Required, runs before synthesis, not optional.
-3. **Synthesis pass.** Apply `prompts/synthesis.md`. The synthesis reads `outputs/verification.md` first and discards any quote the verifier flagged. Output goes to `outputs/04-synthesis.md`.
+1. **Lens pass.** Spawn three parallel subagents, one per lens prompt: `prompts/01-pain-points.md`, `prompts/02-emotional-language.md`, `prompts/03-causal-chains.md`. Each writes to the matching file in `outputs_<tool>/`.
+2. **Verification pass.** After all three lens outputs exist, run `prompts/verification.md` as its own subagent. It grounds every citation against the source transcripts and writes `outputs_<tool>/verification.md`. Required, runs before synthesis, not optional.
+3. **Synthesis pass.** Apply `prompts/synthesis.md`. The synthesis reads `outputs_<tool>/verification.md` first and discards any quote the verifier flagged. Output goes to `outputs_<tool>/04-synthesis.md`.
 
-See `run-prompt.md` for ready-to-paste kickoff prompts for Claude Code and Cursor Pro.
+See `run-prompt.md` for ready-to-paste kickoff prompts for Claude Code and Cursor Pro. The kickoff prompts have the right `outputs_<tool>/` folder already filled in.
 
 ### Claude Code
 
@@ -106,9 +111,9 @@ Five to ten minutes end to end with ten transcripts. The verifier pass adds a mi
 
 ## Side-by-side: Claude Code vs Cursor
 
-Run the Claude Code path first. Save the outputs by renaming `outputs/` to `outputs-claude/`. Then run the Cursor path into a fresh `outputs/`. Compare:
+Run both paths. Each writes to its own folder (`outputs_claude/` and `outputs_cursor/`), so runs don't overwrite each other and you can diff them directly when both are done. Order doesn't matter. Compare:
 
-- Hallucination rate: NOT_FOUND counts in `verification.md` for each tool.
+- Hallucination rate: NOT_FOUND counts in each `outputs_<tool>/verification.md`.
 - Theme overlap in the synthesis after discarding unverified quotes.
 - Time and token spend.
 - Cold-start ease for a first-time user.

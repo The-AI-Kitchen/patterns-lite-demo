@@ -1,6 +1,6 @@
 # Synthesis: Cross-Lens Patterns
 
-You have access to four files in `@outputs/`:
+You have access to four files inside the run's output folder. The folder name (`@outputs_claude/`, `@outputs_cursor/`, or another `@outputs_<tool>/`) is fixed by the kickoff prompt. Read and write inside whichever folder the kickoff names; do not use a generic `@outputs/` path.
 
 - `01-pain-points.md`: friction and broken expectations.
 - `02-emotional-language.md`: emotional valence and tonal shifts.

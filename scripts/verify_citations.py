@@ -1,13 +1,26 @@
 #!/usr/bin/env python3
-"""Ground lens-output citations against transcripts. Writes outputs/verification.md."""
+"""Ground lens-output citations against transcripts.
+
+Usage:
+    python scripts/verify_citations.py [outputs_folder]
+
+The folder defaults to outputs_claude. Pass outputs_cursor (or any other
+outputs_<tool>/ folder) as an arg to verify a different run. Writes
+<folder>/verification.md.
+"""
+import sys
 import re
 from pathlib import Path
 from typing import List, Optional, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 TRANS = ROOT / "transcripts"
-OUT = ROOT / "outputs"
+OUT_DIR_NAME = sys.argv[1] if len(sys.argv) > 1 else "outputs_claude"
+OUT = ROOT / OUT_DIR_NAME
 LENS_FILES = ["01-pain-points.md", "02-emotional-language.md", "03-causal-chains.md"]
+
+if not OUT.is_dir():
+    sys.exit(f"Output folder not found: {OUT}. Pass a valid folder name as the first arg.")
 
 CITE_RE = re.compile(r"\[p(\d{2}):\s*\"([^\"]*)\"\]")
 

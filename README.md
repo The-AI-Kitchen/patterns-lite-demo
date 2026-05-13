@@ -146,7 +146,7 @@ To run the pipeline against the synthetic corpus, swap the transcript path in th
 ## Known limitations and gaps
 
 - Word-count cap. The synthesis prompt asks for under 800 words. Runs to date have come in over. Either tighten the prompt or accept the overage, but do not silently trim citations to fit.
-- Domain prompts. The lens prompts were originally written for the synthetic SCU corpus. The lens *definitions* are domain-agnostic, but the example citations inside the prompt files use the synthetic IDs. The kickoff brief in `run-prompt.md` explicitly remaps participant IDs for the real corpus.
+- Domain prompts. The lens *definitions* are domain-agnostic. The example citations and the default `@real_gig_work_transcripts/` path in the prompt files reflect the Enriquez corpus. To run against the archived synthetic corpus, swap the transcript folder and the citation ID format per the "Run against the synthetic corpus" block in `run-prompt.md`.
 - No LLM-as-judge layer. The verifier checks quote provenance only. A judge layer that scores synthesis claims for support (does each claim actually follow from the quotes that anchor it?) would close the remaining gap and is the natural next iteration.
 - Single language. Transcripts are English-only.
 - One tool per output folder. There is no automatic merge across tools, only side-by-side comparison.

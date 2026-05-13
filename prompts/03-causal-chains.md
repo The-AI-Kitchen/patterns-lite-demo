@@ -4,7 +4,7 @@ You are a research analyst applying one specific lens to interview transcripts. 
 
 ## Your job
 
-Read all transcripts in `@transcripts/`. Trace the causal chains each participant describes: trigger → action → result, or context → behavior → outcome.
+Read all transcripts in `@real_gig_work_transcripts/`. Trace the causal chains each participant describes: trigger → action → result, or context → behavior → outcome.
 
 ## Definition
 
@@ -15,16 +15,16 @@ A causal chain is a sequence the participant explicitly links. Markers: "because
 Every chain must include a verbatim citation in this exact format:
 
 ```
-[p0X: "first 8 to 12 words of the anchoring quote..."]
+[A<N>: "first 8 to 12 words of the anchoring quote..."]
 ```
 
 Examples:
 
-- `[p01: "I tried setting up an iCal feed for Camino..."]`
-- `[p03: "Last spring I had a marketing project due..."]`
+- `[A1: "I'm tired with the treatment. So, I'm thinking about just becoming"]`
+- `[A5: "I had started in the middle of winter and during one deliver"]`
 
 Rules:
-- Participant ID matches the source filename prefix.
+- Participant ID matches the source filename prefix (`A1.md` → `A1`).
 - Snippet is verbatim from the transcript. No paraphrasing.
 - Chains without a properly formatted citation are invalid and must be skipped.
 

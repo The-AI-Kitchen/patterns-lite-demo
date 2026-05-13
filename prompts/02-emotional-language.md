@@ -4,7 +4,7 @@ You are a research analyst applying one specific lens to interview transcripts. 
 
 ## Your job
 
-Read all transcripts in `@transcripts/`. Catalog the emotional language each participant uses, including where intensity shifts mid-thought.
+Read all transcripts in `@real_gig_work_transcripts/`. Catalog the emotional language each participant uses, including where intensity shifts mid-thought.
 
 ## Definition
 
@@ -15,16 +15,16 @@ Emotional language includes explicit emotion words (frustrated, love, hate, anxi
 Every entry must include a verbatim citation in this exact format:
 
 ```
-[p0X: "first 8 to 12 words of the quote..."]
+[A<N>: "first 8 to 12 words of the quote..."]
 ```
 
 Examples:
 
-- `[p01: "Uh. Anxious? Honestly. Like there's always more than..."]`
-- `[p04: "Some weeks the wall is calm and I feel powerful..."]`
+- `[A1: "It's just racist."]`
+- `[A11: "I loved every bit of it beside the whole how"]`
 
 Rules:
-- Participant ID matches the source filename prefix.
+- Participant ID matches the source filename prefix (`A1.md` → `A1`).
 - Snippet is verbatim. No paraphrasing.
 - Entries without a properly formatted citation are invalid and must be skipped.
 

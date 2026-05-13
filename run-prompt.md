@@ -25,7 +25,7 @@ Use the Task tool to spawn three subagents in parallel. All outputs from this ru
 - Subagent 2: apply @prompts/02-emotional-language.md. Write output to @outputs_claude/02-emotional-language.md.
 - Subagent 3: apply @prompts/03-causal-chains.md. Write output to @outputs_claude/03-causal-chains.md.
 
-The example citation format in the lens prompts uses synthetic IDs like `p01`. For this corpus, use the filename prefix as the participant ID, so citations look like `[A1: "first 8 to 12 words of the quote..."]`. Every direct quote in every lens output, including in Hot spots, Tonal contrasts, and cross-reference sections, must be wrapped in a canonical `[A<N>: "..."]` citation tag. Bare quotes without an inline snippet citation will be flagged UNCITED.
+Every direct quote in every lens output, including in Hot spots, Tonal contrasts, and cross-reference sections, must be wrapped in a canonical `[A<N>: "..."]` citation tag, where `<N>` is the participant number from the transcript filename (e.g., `A1.md` → `A1`, `A11.md` → `A11`). Bare quotes without an inline snippet citation will be flagged UNCITED.
 
 After all three subagents finish, spawn a verifier subagent. It applies @prompts/verification.md, reads the three lens files in @outputs_claude/, grounds every citation against the source transcripts in @real_gig_work_transcripts/, and writes the verification report to @outputs_claude/verification.md.
 
@@ -47,7 +47,7 @@ Spawn three parallel subagents. All outputs from this run go to @outputs_cursor/
 - Subagent 2: apply @prompts/02-emotional-language.md. Write output to @outputs_cursor/02-emotional-language.md.
 - Subagent 3: apply @prompts/03-causal-chains.md. Write output to @outputs_cursor/03-causal-chains.md.
 
-The example citation format in the lens prompts uses synthetic IDs like `p01`. For this corpus, use the filename prefix as the participant ID, so citations look like `[A1: "first 8 to 12 words of the quote..."]`. Every direct quote in every lens output, including in Hot spots, Tonal contrasts, and cross-reference sections, must be wrapped in a canonical `[A<N>: "..."]` citation tag. Bare quotes without an inline snippet citation will be flagged UNCITED.
+Every direct quote in every lens output, including in Hot spots, Tonal contrasts, and cross-reference sections, must be wrapped in a canonical `[A<N>: "..."]` citation tag, where `<N>` is the participant number from the transcript filename (e.g., `A1.md` → `A1`, `A11.md` → `A11`). Bare quotes without an inline snippet citation will be flagged UNCITED.
 
 After all three subagents finish, spawn a verifier subagent. It applies @prompts/verification.md, reads the three lens files in @outputs_cursor/, grounds every citation against the source transcripts in @real_gig_work_transcripts/, and writes the verification report to @outputs_cursor/verification.md.
 

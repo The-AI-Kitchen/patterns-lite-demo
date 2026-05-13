@@ -10,13 +10,13 @@ This is the local analog of Anthropic's Citations API. We cannot enforce citatio
   - `01-pain-points.md`
   - `02-emotional-language.md`
   - `03-causal-chains.md`
-- Source transcripts in `@transcripts/`. Filename prefix maps to participant ID (e.g., `p01-cs-junior.md` → `p01`).
+- Source transcripts in `@real_gig_work_transcripts/`. Filename prefix maps to participant ID (e.g., `A1.md` → `A1`).
 
 ## Procedure
 
 For every citation in each lens output file:
 
-1. Parse the participant ID and the verbatim snippet inside the citation tag. Example: `[p01: "I tried Notion last quarter and it was..."]` parses as participant `p01`, snippet `"I tried Notion last quarter and it was"`.
+1. Parse the participant ID and the verbatim snippet inside the citation tag. Example: `[A1: "I don't talk to nobody. Because you can get fired."]` parses as participant `A1`, snippet `"I don't talk to nobody. Because you can get fired."`.
 2. Open the source file matching that participant ID prefix.
 3. Substring-search the source for the snippet. Case-insensitive, whitespace-tolerant. Trailing ellipses in the snippet are ignored for matching.
 4. Classify the citation:
@@ -44,9 +44,9 @@ Write to `verification.md` inside the run's output folder (the same folder the l
 ## Details
 
 ### 01-pain-points.md
-- [VERIFIED] [p01: "I tried Notion last quarter..."]
-- [FUZZY_MATCH] [p02: "every Sunday I open Camino..."] — actual source: "Every Sunday night I open Camino for all four classes"
-- [NOT_FOUND] [p03: "I love Asana more than my own family..."] — quote does not appear in p03-business-senior.md.
+- [VERIFIED] [A1: "I don't talk to nobody. Because you can get fired."]
+- [FUZZY_MATCH] [A5: "they have been more driver crashes and even some fatalities"] — actual source: "there have been more driver crashes and even some fatalities"
+- [NOT_FOUND] [A3: "I love Amazon more than my own family..."] — quote does not appear in A3.md.
 
 ### 02-emotional-language.md
 ...

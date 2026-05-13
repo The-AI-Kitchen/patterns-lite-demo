@@ -1,313 +1,143 @@
-# Lens 2: Emotional Language — Findings
+# Lens 2: Emotional Language
 
-Catalog of emotion-bearing language across the five transcripts. Entries appear in order of appearance within each transcript. Snippets are verbatim.
-
----
-
-## p01 — CS Junior
-
-- Phrase: "the calendar is wrong half the time"
-  - Valence: negative
-  - Object: the Camino calendar's accuracy
-  - Citation: [p01: "And in 129 the assignments page is actually..."]
-
-- Phrase: "I don't trust the calendar at all anymore"
-  - Valence: negative (resolved distrust)
-  - Object: the Camino calendar
-  - Citation: [p01: "So I don't trust the calendar at all anymore..."]
-
-- Phrase: "Reminders is dumb but I open it"
-  - Valence: mixed (dismissive plus affectionate reliance)
-  - Object: Apple Reminders
-  - Intensity shift: mid-sentence flip from "dumb" (dismissive) to active reliance ("I open it like ten times a day").
-  - Citation: [p01: "Reminders is dumb but I open it. I..."]
-
-- Phrase: "this beautiful database and then I never opened it again"
-  - Valence: mixed (aesthetic praise plus abandonment)
-  - Object: a Notion setup
-  - Intensity shift: "beautiful" praise collapses immediately into abandonment in the same clause.
-  - Citation: [p01: "I tried Notion last quarter and it was..."]
-
-- Phrase: "Uh. Anxious? Honestly."
-  - Valence: negative, hedged (question-mark softening)
-  - Object: opening Reminders in the morning
-  - Citation: [p01: "Uh. Anxious? Honestly. Like there's always more than..."]
-
-- Phrase: "I have a love-hate with that number"
-  - Valence: mixed (explicit ambivalence)
-  - Object: the red badge count on Reminders
-  - Citation: [p01: "The little red number is, yeah, I have..."]
-
-- Phrase: "I don't trust email notifications"
-  - Valence: negative
-  - Object: email notifications for Camino
-  - Citation: [p01: "So now I check Camino itself every morning..."]
-
-- Phrase: "mostly garbage, but sometimes something real shows up"
-  - Valence: mixed
-  - Object: regular email inbox
-  - Citation: [p01: "Then I check Slack for both my group..."]
-
-- Phrase: "I gave up"
-  - Valence: negative (defeat)
-  - Object: the Camino iCal feed with duplicate events
-  - Intensity shift: mounting frustration ("kept showing duplicate events," "couldn't figure out") resolves into flat surrender.
-  - Citation: [p01: "I tried setting up an iCal feed for..."]
-
-- Phrase: "Annoying. Like, the information is right there"
-  - Valence: negative
-  - Object: manually retyping Slack messages into Reminders
-  - Citation: [p01: "Annoying. Like, the information is right there in..."]
-
-- Phrase: "I want Camino to just be good"
-  - Valence: negative-leaning wish (longing/exasperation)
-  - Object: Camino as a platform
-  - Citation: [p01: "I want Camino to just be good. Like..."]
-
-- Phrase: "that's a people problem"
-  - Valence: negative, resigned
-  - Object: professors' inconsistency
-  - Citation: [p01: "The professors will still be inconsistent, that's a..."]
+Catalog of emotion-bearing language across the ten transcripts. Grouped by participant in order of appearance. Verbatim citations only.
 
 ---
 
-## p02 — Bio Sophomore
+## p01 — CS junior
 
-- Phrase: "I thought it was kind of corny but it's, I don't know, it's working"
-  - Valence: mixed, hedged
-  - Object: the paper planner her mom gave her
-  - Intensity shift: starts dismissive ("corny"), softens into hedged endorsement ("I don't know, it's working").
-  - Citation: [p02: "My mom got it for me at the..."]
+- "the calendar is wrong half the time?" — Valence: negative (frustration/distrust). Object: Camino calendar accuracy. [p01: "but the calendar is wrong half the time?"]
+- "So I don't trust the calendar at all anymore." — Valence: negative (distrust, hardened). Object: Camino calendar. [p01: "So I don't trust the calendar at all anymore."]
+- "Reminders is dumb but I open it." — Valence: hedged/mixed (dismissive affection). Object: Apple Reminders. [p01: "Reminders is dumb but I open it."]
+- "Uh. Anxious? Honestly." — Valence: negative (anxiety, hedged with a question mark). Object: morning Reminders view. [p01: "Uh. Anxious? Honestly. Like there's always more than..."]
+- "I have a love-hate with that number." — Valence: mixed (explicit love-hate). Object: the red badge count. [p01: "yeah, I have a love-hate with that number."]
+- "I gave up." — Valence: negative (defeat). Object: iCal feed for Camino. [p01: "I gave up. I tried using my Google Calendar..."]
+- "Annoying. Like, the information is right there in Slack." — Valence: negative (annoyance). Object: manual translation work from Slack to Reminders. Intensity shift: starts with one-word annoyance, then expands into a complaint. [p01: "Annoying. Like, the information is right there in Slack."]
+- "I want Camino to just be good." — Valence: mixed (longing, exasperation). Object: Camino as a platform. [p01: "I want Camino to just be good."]
 
-- Phrase: "the notifications stressed me out"
-  - Valence: negative
-  - Object: phone notifications from Slack/Camino/group chat/Snapchat
-  - Citation: [p02: "I used my phone before and the notifications..."]
+## p02 — Biology sophomore
 
-- Phrase: "I couldn't tell which buzz was the important one"
-  - Valence: negative (overwhelm)
-  - Object: undifferentiated phone buzzes
-  - Citation: [p02: "Slack, Camino, group chat, Snapchat. I couldn't tell..."]
+- "I thought it was kind of corny but it's, I don't know, it's working." — Valence: mixed/hedged (mild affection through self-deprecation). Object: paper planner from mom. Intensity shift: starts dismissive ("corny"), softens into quiet endorsement ("it's working"). [p02: "I thought it was kind of corny but it's,"]
+- "the notifications stressed me out." — Valence: negative (stress). Object: phone notifications. [p02: "I used my phone before and the notifications stressed me out."]
+- "I couldn't tell which buzz was the important one." — Valence: negative (overwhelm). Object: phone alerts. [p02: "I couldn't tell which buzz was the important one."]
+- "A little jolt. Like, oh no, what else is hiding in there." — Valence: negative (mild alarm). Object: discovering new mid-week assignments. [p02: "A little jolt. Like, oh no, what else is hiding..."]
+- "It's annoying but I've made peace with it." — Valence: mixed (annoyance softened by acceptance). Object: rearranging the planner. Intensity shift: explicit valence flip within one sentence (annoyance → peace). [p02: "It's annoying but I've made peace with it."]
+- "I felt so dumb." — Valence: negative (shame). Object: missing the OChem quiz. [p02: "He let me make it up but I felt so dumb."]
+- "The translation is the worst part." — Valence: negative (strong distaste). Object: pulling deadlines out of WhatsApp messages. [p02: "The translation is the worst part."]
+- "It's a friction in a good way." — Valence: positive (reframed friction). Object: paper planner's physicality. [p02: "It's a friction in a good way."]
+- "I'd pay for that view, honestly." — Valence: positive (desire/enthusiasm). Object: a hypothetical clean weekly Camino view. [p02: "I'd pay for that view, honestly."]
 
-- Phrase: "A little jolt. Like, oh no, what else is hiding in there"
-  - Valence: negative
-  - Object: discovering new mid-week assignments in Camino
-  - Citation: [p02: "A little jolt. Like, oh no, what else..."]
+## p03 — Business senior
 
-- Phrase: "It's annoying but I've made peace with it"
-  - Valence: mixed (negative then accepting)
-  - Object: rearranging the planner mid-week
-  - Intensity shift: irritation gives way to acceptance within one sentence.
-  - Citation: [p02: "It's annoying but I've made peace with it."]
+- "Google Calendar runs my life." — Valence: positive/mixed (devotional, slightly hyperbolic). Object: Google Calendar. [p03: "Google Calendar runs my life. Everything is in there."]
+- "I felt sick the whole week." — Valence: negative (physical-emotional distress). Object: missed marketing project / internship offsite week. [p03: "I felt sick the whole week. After that I built..."]
+- "It's not that I don't have stress, it's that the calendar absorbs the stress for me." — Valence: mixed (stress acknowledged, then relieved). Object: calendar system. Intensity shift: explicit valence flip — stress acknowledged then offloaded. [p03: "It's not that I don't have stress, it's that..."]
+- "I trust the calendar." — Valence: positive (trust). Object: Google Calendar. [p03: "I trust the calendar. If it's not in the calendar..."]
+- "The notifications are a joke." — Valence: negative (contempt). Object: Camino notifications. [p03: "The notifications are a joke. I have them turned off."]
+- "we wanted to look serious. It actually works." — Valence: positive (mild surprise/pride). Object: Asana for group project. [p03: "we wanted to look serious. It actually works."]
+- "the integration is sketchy." — Valence: negative (distrust). Object: Asana–Google Calendar integration. [p03: "into my Google Calendar manually because the integration is sketchy."]
 
-- Phrase: "I just crashed when I got home"
-  - Valence: negative (exhaustion)
-  - Object: the Thursday lab night
-  - Citation: [p02: "I didn't check Camino Thursday because I had..."]
+## p04 — English junior
 
-- Phrase: "I felt so dumb"
-  - Valence: negative (shame)
-  - Object: missing the OChem quiz
-  - Citation: [p02: "He let me make it up but I..."]
+- "There's a small thrill in ripping it off." — Valence: positive (pleasure). Object: removing a finished sticky note. [p04: "There's a small thrill in ripping it off."]
+- "Yes I am the human implementation of a database." — Valence: positive/mixed (wry pride). Object: own sticky-note system. [p04: "Yes I am the human implementation of a database."]
+- "Some weeks the wall is calm and I feel powerful." — Valence: positive (powerful, calm). Object: the sticky-note wall. [p04: "Some weeks the wall is calm and I feel powerful."]
+- "Some weeks the wall is, you know, a wall." — Valence: negative (oppressive). Object: same wall, full week. Intensity shift: explicit flip — calm/powerful in one sentence, then weight/dread in the next. [p04: "Some weeks the wall is, you know, a wall."]
+- "I just feel the weight of it." — Valence: negative (heaviness, dread). Object: the loaded wall. [p04: "I sit at my desk and I just feel the weight..."]
+- "I had nine stickies and I couldn't sleep." — Valence: negative (anxiety, somatic). Object: workload represented on wall. [p04: "Last week I had nine stickies and I couldn't sleep."]
+- "It's a graveyard." — Valence: negative (metaphor; abandonment). Object: her Notion reading log. [p04: "It's a graveyard. The problem with Notion is it asks..."]
+- "they didn't respect any kind of human rhythm." — Valence: negative (resentment). Object: Camino notification timing. [p04: "they didn't respect any kind of human rhythm."]
 
-- Phrase: "The translation is the worst part"
-  - Valence: negative
-  - Object: copying WhatsApp deadlines into the planner
-  - Citation: [p02: "I write them in my planner too, in..."]
+## p05 — Math sophomore
 
-- Phrase: "It's a friction in a good way"
-  - Valence: positive (reframed friction)
-  - Object: the physical act of opening the paper planner
-  - Citation: [p02: "The planner works because I have to physically..."]
+- "I know that sounds dumb." — Valence: hedged/negative (self-deprecation). Object: own memory-based system. [p05: "I just remember. Honestly. I know that sounds dumb."]
+- "Sounds insane but it works." — Valence: mixed (self-deprecation paired with quiet endorsement). Object: writing deadlines on his hand. [p05: "Like literally on my hand. Sounds insane but it works."]
+- "No, mostly not." — Valence: hedged positive (calm, qualified). Object: anxiety about deadlines. [p05: "No, mostly not. I had a moment two weeks..."]
+- "That was scary for like ten minutes." — Valence: negative (brief fear, time-bounded). Object: nearly missing the Linear set deadline. Intensity shift: scary inside a ten-minute window, then dissipates. [p05: "That was scary for like ten minutes."]
+- "I wonder if I'm getting away with something." — Valence: hedged/negative (low-grade doubt). Object: his minimal system compared with peers'. [p05: "I wonder if I'm getting away with something."]
+- "nothing major has gone wrong, so." — Valence: hedged positive (reassurance, trailing). Object: his system's track record. [p05: "But it's been four quarters and nothing major has gone..."]
 
-- Phrase: "I'd pay for that view, honestly"
-  - Valence: positive longing
-  - Object: a hypothetical clean weekly Camino view
-  - Citation: [p02: "Make Camino show me a clean weekly view..."]
+## p06 — Mechanical Engineering senior
 
----
+- "It works." — Valence: positive (terse satisfaction). Object: his Google Sheet system. [p06: "status, and time estimate. It works."]
+- "I trust the sheet. The sheet is what I built. It's mine." — Valence: positive (trust, ownership/pride). Object: personal spreadsheet. [p06: "I trust the sheet. The sheet is what I built."]
+- "Mostly fine." — Valence: hedged positive. Object: managing two systems. [p06: "Mostly fine. Sometimes I do double entry,"]
+- "The bigger annoyance is when Trello and the spreadsheet disagree" — Valence: negative (annoyance, comparative). Object: source-of-truth conflicts. Intensity shift: "mostly fine" softens into a named annoyance. [p06: "The bigger annoyance is when Trello and the spreadsheet..."]
+- "I had to apologize to the team" — Valence: negative (regret implied through action). Object: missed subsystem review. [p06: "I had to apologize to the team and reschedule..."]
+- "Made a beautiful page." — Valence: positive (appreciation). Object: his abandoned Notion page. [p06: "I tried Notion. Made a beautiful page."]
+- "I don't want to rebuild every quarter." — Valence: negative (resistance, fatigue). Object: Notion's open-ended setup. [p06: "I don't want to rebuild every quarter."]
+- "I check Camino on my schedule, not its." — Valence: negative (defiance/control). Object: Camino notifications. [p06: "I check Camino on my schedule, not its."]
 
-## p03 — Business Senior
+## p07 — Psychology junior
 
-- Phrase: "Google Calendar runs my life"
-  - Valence: positive (devotional)
-  - Object: Google Calendar
-  - Citation: [p03: "Google Calendar runs my life. Everything is in..."]
+- "I love it." — Valence: positive (explicit love). Object: her Notion database. [p07: "It survived three Notion redesigns. I love it."]
+- "That's the unlock." — Valence: positive (excitement/discovery). Object: Notion's multi-view database. [p07: "The same data, multiple views. That's the unlock."]
+- "Honestly? Proud. Smug, even. I will admit that." — Valence: positive (pride, named twice and escalating). Object: own system. Intensity shift: proud → smug, intensifying within one breath. [p07: "Honestly? Proud. Smug, even. I will admit that."]
+- "I take it as a compliment." — Valence: positive (reframing mockery). Object: friends teasing her organization. [p07: "and I take it as a compliment."]
+- "The translation is annoying" — Valence: negative (annoyance). Object: copying lab deadlines from Slack/email into Notion. [p07: "The translation is annoying but I've done it long..."]
+- "I was confused." — Valence: negative (mild distress). Object: submitting a half-draft after misreading her own deadline. [p07: "I got it back Friday with the grade and was confused."]
+- "Lesson: don't lie to your own system." — Valence: mixed (rueful, instructive). Object: own self-sabotage. [p07: "Then I realized I'd outsmarted myself. Lesson: don't lie..."]
+- "they just stressed me out without giving me actionable info." — Valence: negative (stress). Object: Camino notifications. [p07: "The notifications were not helpful, they just stressed..."]
 
-- Phrase: "That's the trick"
-  - Valence: positive (pride in system)
-  - Object: the two-day buffer strategy
-  - Citation: [p03: "Two-day buffer. That's the trick. If something's..."]
+## p08 — CS senior
 
-- Phrase: "I felt sick the whole week"
-  - Valence: negative (visceral distress)
-  - Object: missing the marketing project and offsite deadlines last spring
-  - Citation: [p03: "I missed both deadlines, kind of. I had..."]
+- "I'm not letting that happen again." — Valence: negative-tinged resolve (vigilance). Object: dropped assignments. [p08: "Last quarter something dropped. I'm not letting that..."]
+- "he was cool" — Valence: positive (relief/gratitude, lowercase). Object: forgiving 161 professor. [p08: "I emailed the prof, he was cool, but I lost points."]
+- "Honestly good. Controlled chaos." — Valence: positive (paradoxical satisfaction). Object: his sprint-based system. Intensity shift: "good" then immediately complicated by "chaos." [p08: "Honestly good. Controlled chaos. The sprint structure makes..."]
+- "the load feel finite" — Valence: positive (containment, relief). Object: weekly sprint scope. [p08: "The sprint structure makes the load feel finite."]
+- "doesn't bother me." — Valence: positive (calm). Object: tasks outside the current sprint. [p08: "The not-this-week stuff doesn't bother me."]
+- "Too slow. I want hotkeys." — Valence: negative (impatience). Object: Notion. [p08: "I tried Notion in like 2023. Too slow."]
+- "They're noise." — Valence: negative (dismissal). Object: Camino notifications. [p08: "Off. They're noise. I want to control when..."]
 
-- Phrase: "the calendar absorbs the stress for me"
-  - Valence: positive (relief metaphor)
-  - Object: Google Calendar
-  - Citation: [p03: "Yeah. It's not that I don't have stress..."]
+## p09 — Sociology junior (transfer)
 
-- Phrase: "I trust the calendar"
-  - Valence: positive
-  - Object: Google Calendar
-  - Citation: [p03: "I trust the calendar. If it's not in..."]
+- "Honestly, badly." — Valence: negative (blunt self-assessment). Object: her current tracking. [p09: "Honestly, badly. I transferred from De Anza in September..."]
+- "I'm still figuring it out." — Valence: hedged/negative (uncertainty). Object: Camino. [p09: "and Camino is, I'm still figuring it out."]
+- "I don't know where the assignments are half the time." — Valence: negative (confusion). Object: Camino layout. [p09: "I don't know where the assignments are half the time."]
+- "I feel dumb." — Valence: negative (shame). Object: not finding due dates. [p09: "I feel dumb. I asked my friend in the same..."]
+- "I don't believe her." — Valence: negative (mistrust/incredulity). Object: friend's claim to just remember. [p09: "she just remembers. I don't believe her."]
+- "It's not a great system." — Valence: hedged negative. Object: her Sunday self-email. [p09: "is due that week. It's not a great system."]
+- "It's a wall of empty pages and I didn't know where to start." — Valence: negative (overwhelm). Object: Notion. [p09: "It's a wall of empty pages and I didn't know..."]
+- "I was just guessing. I'm still mostly guessing." — Valence: negative (uncertainty, ongoing). Object: how Camino works at SCU. [p09: "The first few weeks I was just guessing."]
+- "Tired. Behind. A little embarrassed." — Valence: negative (compounded, three named emotions). Object: her whole experience this quarter. Intensity shift: three discrete emotions stacked in three short sentences, escalating in vulnerability. [p09: "Tired. Behind. A little embarrassed. I was a 4.0..."]
+- "here I feel like I'm always one assignment behind." — Valence: negative (chronic dread). Object: SCU vs. De Anza comparison. [p09: "and here I feel like I'm always one assignment..."]
 
-- Phrase: "The notifications are a joke"
-  - Valence: negative (derision)
-  - Object: Camino notifications
-  - Citation: [p03: "Camino is a source. I extract from it..."]
+## p10 — Marketing senior
 
-- Phrase: "we wanted to look serious"
-  - Valence: positive (pride/aspiration)
-  - Object: the group's Asana adoption
-  - Citation: [p03: "My MGMT 175 group uses Asana. We adopted..."]
-
-- Phrase: "It actually works"
-  - Valence: positive (mildly surprised)
-  - Object: Asana for group work
-  - Citation: [p03: "We adopted it because everyone in the group..."]
-
-- Phrase: "the integration is sketchy"
-  - Valence: negative
-  - Object: the Asana-to-Google-Calendar integration
-  - Citation: [p03: "I pull the Asana dates into my Google..."]
-
-- Phrase: "otherwise I'd lose half the assignments"
-  - Valence: negative (anxiety about loss)
-  - Object: the MGMT 175 professor's email-only workflow
-  - Citation: [p03: "I have a Gmail filter that flags anything..."]
-
-- Phrase: "it shouldn't be necessary"
-  - Valence: negative (mild indignation)
-  - Object: the Gmail filter workaround
-  - Citation: [p03: "The filter helps but it shouldn't be necessary."]
+- "Camino is hard to use for me." — Valence: negative (named difficulty). Object: Camino. [p10: "Camino is hard to use for me. The text is dense,"]
+- "It works, but it's exhausting." — Valence: mixed (positive then negative). Object: doing deadline tracking by ear/audio weekly. Intensity shift: starts with "It works" (positive) then immediately flips to "but it's exhausting." [p10: "It works, but it's exhausting."]
+- "By Friday I'm done." — Valence: negative (depletion). Object: her workweek. [p10: "every week. By Friday I'm done."]
+- "which is huge." — Valence: positive (gratitude/relief). Object: professors' weekly summaries. [p10: "weekly summaries of what's due, which is huge."]
+- "asking is the part I hate." — Valence: negative (explicit hate). Object: having to request the summaries. [p10: "I have to ask, and asking is the part I hate."]
+- "It's awkward." — Valence: negative (discomfort). Object: the asking ritual. [p10: "I shouldn't have to ask every quarter. It's awkward."]
+- "The blinking cursor and the empty page made me anxious." — Valence: negative (anxiety, sensory). Object: Notion. [p10: "The blinking cursor and the empty page made me anxious."]
+- "Proud, mostly. I built this." — Valence: positive (pride, hedged with "mostly"). Object: her workflow. [p10: "Proud, mostly. I built this. Other students see it..."]
+- "From the outside it looks weird. From the inside it makes sense." — Valence: mixed (defensive pride). Object: her workflow's appearance. Intensity shift: outside judgment vs. inside coherence, in parallel sentences. [p10: "From the outside it looks weird. From the inside..."]
+- "that would change my life." — Valence: positive (longing/hyperbole). Object: hypothetical Camino auto-summary. [p10: "this week,\" that would change my life."]
 
 ---
 
-## p04 — English Junior
+## Hot spots (recurring emotion words/phrases across 2+ transcripts)
 
-- Phrase: "There's a small thrill in ripping it off"
-  - Valence: positive
-  - Object: removing a completed sticky note
-  - Citation: [p04: "One per task. When something's done I rip..."]
-
-- Phrase: "I don't trust it as my source of truth"
-  - Valence: negative
-  - Object: Camino
-  - Citation: [p04: "I open Camino to find the assignments, but..."]
-
-- Phrase: "Yes I am the human implementation of a database"
-  - Valence: mixed (wry self-deprecation, almost fond)
-  - Object: own sticky-note workflow
-  - Citation: [p04: "The sticky goes on the wall in due-date..."]
-
-- Phrase: "Some weeks the wall is calm and I feel powerful"
-  - Valence: positive
-  - Object: the sticky-note wall on light weeks
-  - Citation: [p04: "It depends on the week. Some weeks the..."]
-
-- Phrase: "I just feel the weight of it"
-  - Valence: negative (heaviness metaphor)
-  - Object: the sticky-note wall on heavy weeks
-  - Intensity shift: same paragraph flips from "calm" / "powerful" to "the weight of it" and "couldn't sleep."
-  - Citation: [p04: "Some weeks the wall is, you know, a..."]
-
-- Phrase: "I couldn't sleep"
-  - Valence: negative
-  - Object: a nine-sticky workload week
-  - Citation: [p04: "Last week I had nine stickies and I..."]
-
-- Phrase: "It's a graveyard"
-  - Valence: negative (abandonment metaphor)
-  - Object: an unused Notion reading log
-  - Citation: [p04: "I made a whole reading log and then..."]
-
-- Phrase: "The wall doesn't ask. The wall just is."
-  - Valence: positive (relief)
-  - Object: the sticky-note wall versus Notion
-  - Citation: [p04: "The problem with Notion is it asks me..."]
-
-- Phrase: "they didn't respect any kind of human rhythm"
-  - Valence: negative (indignation)
-  - Object: Camino notification timing
-  - Citation: [p04: "They came at midnight, they came on Sunday..."]
-
-- Phrase: "I'd rather check Camino myself when I'm ready"
-  - Valence: positive (autonomy)
-  - Object: self-paced Camino checking
-  - Citation: [p04: "I'd rather check Camino myself when I'm ready."]
-
----
-
-## p05 — Math Sophomore
-
-- Phrase: "I know that sounds dumb"
-  - Valence: negative, hedged (self-deprecation)
-  - Object: own memory-based tracking approach
-  - Citation: [p05: "I just remember. Honestly. I know that sounds..."]
-
-- Phrase: "There's nothing to track"
-  - Valence: positive (confidence/ease)
-  - Object: the predictable weekly problem-set pattern
-  - Citation: [p05: "It's the same pattern every week. There's nothing..."]
-
-- Phrase: "Sounds insane but it works"
-  - Valence: mixed (self-aware, ultimately positive)
-  - Object: writing reminders on the back of his hand
-  - Intensity shift: "insane" disclaimer flips to endorsement within the same sentence.
-  - Citation: [p05: "Like literally on my hand. Sounds insane but..."]
-
-- Phrase: "I'm not in Camino to manage my life"
-  - Valence: neutral-to-positive (assertive detachment)
-  - Object: Camino's role for him
-  - Citation: [p05: "I check Camino maybe twice a week. Mostly..."]
-
-- Phrase: "No, mostly not"
-  - Valence: positive, hedged
-  - Object: anxiety about deadlines
-  - Citation: [p05: "No, mostly not. I had a moment two..."]
-
-- Phrase: "That was scary for like ten minutes"
-  - Valence: negative (brief, bounded)
-  - Object: the near-miss on the Linear Algebra submission time
-  - Intensity shift: emotional spike is explicitly time-boxed ("for like ten minutes"), softening the valence.
-  - Citation: [p05: "That was scary for like ten minutes. I..."]
-
-- Phrase: "That works fine"
-  - Valence: positive (mild)
-  - Object: the tutoring-job text reminders
-  - Citation: [p05: "I get a text reminder an hour before..."]
-
-- Phrase: "Sometimes"
-  - Valence: negative, hedged (worry)
-  - Object: the possibility his system will fail
-  - Citation: [p05: "Sometimes. Especially when other people talk about their..."]
-
-- Phrase: "I wonder if I'm getting away with something"
-  - Valence: mixed (sheepish, almost guilty)
-  - Object: own minimalist approach compared to peers
-  - Citation: [p05: "I wonder if I'm getting away with something..."]
-
----
-
-## Hot spots (recurring across two or more transcripts)
-
-- Distrust of Camino / its calendar or notifications: "I don't trust the calendar at all anymore" [p01], "The notifications are a joke" [p03], "I don't trust it as my source of truth" [p04], "they didn't respect any kind of human rhythm" [p04].
-- "Annoying" as the default low-grade negative descriptor: "Annoying. Like, the information is right there in..." [p01], "It's annoying but I've made peace with it." [p02].
-- Self-deprecation about one's own coping system: "Reminders is dumb but I open it. I..." [p01], "Yes I am the human implementation of a database" [p04], "I know that sounds dumb..." [p05], "Sounds insane but it works" [p05].
-- Notion as a failed/abandoned tool, expressed with mild grief: "this beautiful database and then I never opened it again" [p01], "It's a graveyard." [p04].
-- Visceral body-language for deadline stress: "I felt sick the whole week" [p03], "I just feel the weight of it" [p04], "couldn't sleep" [p04], "stressed me out" [p02].
-- Shame at near-misses: "I felt so dumb" [p02], "That was scary for like ten minutes" [p05], "I felt sick the whole week" [p03].
+- "Anxious" / "anxiety" / "stressed me out": p01 ("Anxious? Honestly"), p02 ("notifications stressed me out"), p07 ("just stressed me out"), p10 ("made me anxious").
+- "Dumb" (self-directed): p01 ("Reminders is dumb"), p02 ("I felt so dumb"), p05 ("I know that sounds dumb"), p09 ("I feel dumb").
+- "Annoying" / "annoyance": p01 ("Annoying"), p02 ("It's annoying"), p06 ("The bigger annoyance"), p07 ("The translation is annoying").
+- "Trust" / "I don't trust": p01 ("I don't trust the calendar"), p03 ("I trust the calendar"), p04 ("I don't trust it as my source of truth"), p06 ("I trust the sheet").
+- "Proud" / "smug": p07 ("Proud. Smug, even"), p10 ("Proud, mostly").
+- "Off" as terse dismissal of Camino notifications: p03 ("I have them turned off"), p04 ("I have them off"), p06 ("Off"), p07 ("Off"), p08 ("Off").
+- Notion as object of negative emotion (anxiety, abandonment, fatigue): p01 ("never opened it again"), p04 ("It's a graveyard"), p06 ("I don't want to rebuild"), p08 ("Too slow"), p09 ("wall of empty pages"), p10 ("made me anxious").
+- "It works" as terse positive: p02 ("it's working"), p03 ("It actually works"), p05 ("it works"), p06 ("It works"), p10 ("It works, but it's exhausting").
 
 ## Tonal contrasts (intra-participant valence flips within a short span)
 
-- p01: "this beautiful database and then I never opened it again" — admiration and abandonment in one breath. [p01: "this beautiful database and then I never opened..."]
-- p01: "Reminders is dumb but I open it" — dismissal flips to reliance. [p01: "Reminders is dumb but I open it. I..."]
-- p01: "love-hate with that number" — explicit ambivalence about the red badge. [p01: "The little red number is, yeah, I have..."]
-- p02: "kind of corny but it's, I don't know, it's working" — dismissal softens to hedged endorsement. [p02: "My mom got it for me at the..."]
-- p02: "annoying but I've made peace with it" — irritation flips to acceptance. [p02: "It's annoying but I've made peace with it."]
-- p04: "Some weeks the wall is calm and I feel powerful. Some weeks the wall is, you know, a wall" — same object swings from "powerful" to "weight" within one paragraph. [p04: "Some weeks the wall is calm and I..."]
-- p05: "Sounds insane but it works" — disclaimer-to-endorsement flip in a single sentence. [p05: "Like literally on my hand. Sounds insane but..."]
-- p05: "No, mostly not... That was scary for like ten minutes" — broad calm with a bounded spike of fear. [p05: "No, mostly not. I had a moment two..."]
+- p01: "Reminders is dumb but I open it." — dismissive then affectionate inside one sentence.
+- p02: "I thought it was kind of corny but it's, I don't know, it's working." — corny → working in one breath.
+- p02: "It's annoying but I've made peace with it." — annoyance → acceptance, explicit flip.
+- p03: "It's not that I don't have stress, it's that the calendar absorbs the stress for me." — stress acknowledged → relief, same sentence.
+- p04: "Some weeks the wall is calm and I feel powerful. Some weeks the wall is, you know, a wall." — powerful → weighed-down across adjacent sentences.
+- p05: "I just remember. Honestly. I know that sounds dumb." — confidence → self-deprecation in three short sentences.
+- p06: "Mostly fine." then "The bigger annoyance is when Trello and the spreadsheet disagree" — fine → annoyance within the same answer.
+- p07: "Honestly? Proud. Smug, even." — proud intensifying to smug inside one breath.
+- p08: "Honestly good. Controlled chaos." — good immediately complicated by chaos.
+- p10: "It works, but it's exhausting." — positive → negative inside one clause.
+- p10: "From the outside it looks weird. From the inside it makes sense." — weird → coherent across paired sentences.
